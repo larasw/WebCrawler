@@ -24,6 +24,15 @@ public class MusicTest {
     }
 
     @Test
+    public void FormatIsEmpty() {
+        Music music = new Music();
+
+        String format = music.getFormat();
+
+        assertEquals("Data is not empty",null, format);
+    }
+
+    @Test
     public void setGenre() {
         Music music = new Music();
 
