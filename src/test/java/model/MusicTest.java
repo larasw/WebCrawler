@@ -67,6 +67,13 @@ public class MusicTest {
 
     @Test
     public void setYear() {
+        Music music = new Music();
+
+        String year = "1996";
+        music.setYear(year);
+        String getyear = music.getYear();
+
+        assertEquals("Year is not 1996", "1996", getyear);
     }
 
     @Test
