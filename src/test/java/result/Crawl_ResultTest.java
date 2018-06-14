@@ -88,4 +88,18 @@ public class Crawl_ResultTest {
         // assert
         assertThat(total).isEqualTo(1);
     }
+
+    @Test
+    public void setZeroAsId() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setId(5);
+        result.setId(0);
+        int id = result.getId();
+
+        // assert
+        assertThat(id).isEqualTo(5);
+    }
 }

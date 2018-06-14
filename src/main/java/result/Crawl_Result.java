@@ -42,4 +42,14 @@ public class Crawl_Result {
     public ArrayList<Music> getMusic() {
         return musics;
     }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        if(id != 0){
+            Id = id;
+        }
+    }
 }
