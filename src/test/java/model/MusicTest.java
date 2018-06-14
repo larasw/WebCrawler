@@ -27,10 +27,11 @@ public class MusicTest {
     public void setGenre() {
         Music music = new Music();
 
-        String genre = "Rock";
+        String genre = "rock";
         music.setGenre(genre);
+        String getgenre = music.getGenre();
 
-        
+        assertEquals("Genre is not "+genre, "rock", getgenre);
     }
 
     @Test
@@ -39,6 +40,13 @@ public class MusicTest {
 
     @Test
     public void setFormat() {
+        Music music = new Music();
+
+        String format = "mp3";
+        music.setFormat(format);
+        String getformat = music.getFormat();
+
+        assertEquals("Format is not "+format, "mp3", getformat);
     }
 
     @Test
