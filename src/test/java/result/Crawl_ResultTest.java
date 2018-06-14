@@ -116,5 +116,18 @@ public class Crawl_ResultTest {
         // assert
         assertThat(id).isEqualTo(5);
     }
-    
+
+    @Test
+    public void setMinusOneAsNumberOfPages() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setNumberOfPages(5);
+        result.setNumberOfPages(-1);
+        int numberOfPages = result.getNumberOfPages();
+
+        // assert
+        assertThat(numberOfPages).isEqualTo(5);
+    }
 }

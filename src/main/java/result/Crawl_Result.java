@@ -48,8 +48,16 @@ public class Crawl_Result {
     }
 
     public void setId(int id) {
-        if(id > 0){
+        if(id > 0)
             Id = id;
-        }
+    }
+
+    public int getNumberOfPages() {
+        return numberOfPages;
+    }
+
+    public void setNumberOfPages(int numberOfPages) {
+        if(numberOfPages >= 0)
+            this.numberOfPages = numberOfPages;
     }
 }
