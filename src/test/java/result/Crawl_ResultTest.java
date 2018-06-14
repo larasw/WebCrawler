@@ -145,4 +145,18 @@ public class Crawl_ResultTest {
         assertThat(timeResult).isEqualTo(10);
 
     }
+
+    @Test
+    public void setTimeElapsedAsMinusOne() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setTimeElapsed(10);
+        result.setTimeElapsed(-1);
+        long timeResult = result.getTimeElapsed();
+
+        // assert
+        assertThat(timeResult).isEqualTo(10);
+    }
 }

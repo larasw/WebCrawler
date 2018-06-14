@@ -671,7 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Crawl_ResultTest.setTimeElapsedToZero">
+  <component name="RunManager" selected="JUnit.Crawl_ResultTest.setTimeElapsedAsMinusOne">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -692,29 +692,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="Crawl_ResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="result" />
-      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
@@ -728,6 +705,29 @@
       <option name="PACKAGE_NAME" value="result" />
       <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
       <option name="METHOD_NAME" value="setMinusOneAsNumberOfPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Crawl_ResultTest.setTimeElapsedAsMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="result" />
+      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
+      <option name="METHOD_NAME" value="setTimeElapsedAsMinusOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -823,19 +823,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Crawl_ResultTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsNumberOfPages" />
       <item itemvalue="Gradle.WebCrawler_Laras [test]" />
       <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
       <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedAsMinusOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedAsMinusOne" />
         <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
         <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
         <item itemvalue="Gradle.WebCrawler_Laras [test]" />
         <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsNumberOfPages" />
-        <item itemvalue="JUnit.Crawl_ResultTest" />
       </list>
     </recent_temporary>
   </component>

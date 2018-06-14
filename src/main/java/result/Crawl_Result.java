@@ -66,7 +66,7 @@ public class Crawl_Result {
     }
 
     public void setTimeElapsed(long timeElapsed) {
-        if(timeElapsed != 0)
+        if(timeElapsed > 0)
             this.timeElapsed = timeElapsed;
     }
 }
