@@ -102,4 +102,19 @@ public class Crawl_ResultTest {
         // assert
         assertThat(id).isEqualTo(5);
     }
+
+    @Test
+    public void setMinusOneAsId() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setId(5);
+        result.setId(-1);
+        int id = result.getId();
+
+        // assert
+        assertThat(id).isEqualTo(5);
+    }
+    
 }

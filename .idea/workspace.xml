@@ -44,8 +44,8 @@
       <file leaf-file-name="Crawl_Result.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -62,8 +62,6 @@
                 <element signature="e#762#763#0" expanded="true" />
                 <element signature="e#902#903#0" expanded="true" />
                 <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +70,8 @@
       <file leaf-file-name="Crawl_ResultTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+            <state relative-caret-position="1904">
+              <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -403,8 +401,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Music.java" />
-        <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
         <option value="$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
       </list>
     </option>
   </component>
@@ -635,11 +633,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Crawl_ResultTest.setZeroAsId">
+  <component name="RunManager" selected="JUnit.Crawl_ResultTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Crawl_ResultTest.add1BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Crawl_ResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -651,8 +649,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="result" />
       <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="add1BookTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -708,7 +706,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Crawl_ResultTest.setMinusOneAsId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -720,7 +718,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="result" />
       <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="constructorToInstantiateMusicsArrayListTest" />
+      <option name="METHOD_NAME" value="setMinusOneAsId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -793,19 +791,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" />
-      <item itemvalue="JUnit.Crawl_ResultTest.add1BookTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.add1MovieTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.add1MusicTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.setZeroAsId" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsId" />
+      <item itemvalue="JUnit.Crawl_ResultTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Crawl_ResultTest" />
+        <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsId" />
         <item itemvalue="JUnit.Crawl_ResultTest.setZeroAsId" />
         <item itemvalue="JUnit.Crawl_ResultTest.add1MusicTest" />
         <item itemvalue="JUnit.Crawl_ResultTest.add1MovieTest" />
-        <item itemvalue="JUnit.Crawl_ResultTest.add1BookTest" />
-        <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -892,22 +890,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528967342581</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Crawl_Result Test - Set 0 as ID">
+      <created>1528968211307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528968211307</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Crawl_ResultTest_constructorToInstantiateMoviesArrayListTest - 2018.06.14 at 10h 57m 28s.xml">
-      <configuration name="Crawl_ResultTest.constructorToInstantiateMoviesArrayListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest - 2018.06.14 at 10h 57m 34s.xml">
-      <configuration name="Crawl_ResultTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_constructorToInstantiateMusicsArrayListTest - 2018.06.14 at 10h 58m 50s.xml">
-      <configuration name="Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_constructorToInstantiateMusicsArrayListTest - 2018.06.14 at 10h 59m 06s.xml">
-      <configuration name="Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Crawl_ResultTest_add1BookTest - 2018.06.14 at 11h 03m 47s.xml">
       <configuration name="Crawl_ResultTest.add1BookTest" configurationId="JUnit" />
     </history-entry>
@@ -926,9 +919,21 @@
     <history-entry file="Crawl_ResultTest_add1MusicTest - 2018.06.14 at 11h 08m 50s.xml">
       <configuration name="Crawl_ResultTest.add1MusicTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Crawl_ResultTest_setZeroAsId - 2018.06.14 at 11h 20m 11s.xml">
+      <configuration name="Crawl_ResultTest.setZeroAsId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setZeroAsId - 2018.06.14 at 11h 22m 19s.xml">
+      <configuration name="Crawl_ResultTest.setZeroAsId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setZeroAsId - 2018.06.14 at 11h 23m 02s.xml">
+      <configuration name="Crawl_ResultTest.setZeroAsId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setMinusOneAsId - 2018.06.14 at 11h 24m 02s.xml">
+      <configuration name="Crawl_ResultTest.setMinusOneAsId" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4594000" />
+    <option name="totallyTimeSpent" value="4842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1004,7 +1009,13 @@
     <MESSAGE value="Crawl_Result Test - Add 1 Book Test" />
     <MESSAGE value="Crawl_Result Test - Add 1 Movie Test" />
     <MESSAGE value="Crawl_Result Test - Add 1 Music Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crawl_Result Test - Add 1 Music Test" />
+    <MESSAGE value="Crawl_Result Test - Set 0 as ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crawl_Result Test - Set 0 as ID" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1150,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
@@ -1168,16 +1179,14 @@
             <element signature="e#762#763#0" expanded="true" />
             <element signature="e#902#903#0" expanded="true" />
             <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        <state relative-caret-position="1904">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
