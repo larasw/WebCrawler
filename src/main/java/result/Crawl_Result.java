@@ -15,6 +15,7 @@ public class Crawl_Result {
 
     public Crawl_Result() {
         books = new ArrayList<>();
+        movies = new ArrayList<>();
     }
 
     public void AddBook(Book book){
@@ -31,5 +32,9 @@ public class Crawl_Result {
 
     public ArrayList<Book> getBooks() {
         return books;
+    }
+
+    public ArrayList<Movie> getMovies() {
+        return movies;
     }
 }

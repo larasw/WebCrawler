@@ -17,4 +17,16 @@ public class Crawl_ResultTest {
         // assert
         assertThat(total).isEqualTo(0);
     }
+
+    @Test
+    public void constructorToInstantiateMoviesArrayListTest() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        int total = result.getMovies().size();
+
+        // assert
+        assertThat(total).isEqualTo(0);
+    }
 }
