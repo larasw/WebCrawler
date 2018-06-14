@@ -2,17 +2,11 @@ package model;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class MusicTest {
-    @Test
-    public void ArtistIsEmpty() {
-        Music music = new Music();
-
-        String name = music.getArtist();
-
-        assertEquals("Data is not empty",null, name);
-    }
 
     @Test
     public void GenreIsEmpty() {
@@ -96,4 +90,5 @@ public class MusicTest {
 
         assertEquals("Artist not "+artist, "rihanna", getartist);
     }
+
 }
