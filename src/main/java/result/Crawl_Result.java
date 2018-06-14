@@ -24,7 +24,7 @@ public class Crawl_Result {
     }
 
     public void AddMovie(Movie movie){
-
+        movies.add(movie);
     }
 
     public void AddMusic(Music music){

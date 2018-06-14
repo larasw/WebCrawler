@@ -1,6 +1,7 @@
 package result;
 
 import model.Book;
+import model.Movie;
 import org.junit.Test;
 import org.mockito.Mockito.*;
 
@@ -54,6 +55,20 @@ public class Crawl_ResultTest {
         // act
         result.AddBook(book);
         int total = result.getBooks().size();
+
+        // assert
+        assertThat(total).isEqualTo(1);
+    }
+
+    @Test
+    public void add1MovieTest() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+        Movie movie = mock(Movie.class);
+
+        // act
+        result.AddMovie(movie);
+        int total = result.getMovies().size();
 
         // assert
         assertThat(total).isEqualTo(1);
