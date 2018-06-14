@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -16,113 +21,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WebCrawler_Laras$WebCrawler_Laras__test_.ic" NAME="WebCrawler_Laras [test] Coverage Results" MODIFIED="1528968700499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Movie.java">
+      <file leaf-file-name="IStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/IStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="153">
+              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Music.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Music.java">
+      <file leaf-file-name="IStrategyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Book.java">
+      <file leaf-file-name="Crawl_ResultTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -133,6 +110,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -449,6 +427,10 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Music.java" />
+        <option value="$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java" />
       </list>
     </option>
   </component>
@@ -472,55 +454,233 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WebCrawler_Caesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler_Caesar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WebCrawler_Caesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler_Caesar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WebCrawler_Caesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler_Caesar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="WebCrawler_Caesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler_Caesar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WebCrawler_Caesar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler_Caesar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler_Laras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler_Laras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="strategy" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/model/Book.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/model/Movie.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/model/Music.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -534,9 +694,118 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IStrategyTest.searchTestUsingMockito">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WebCrawler_Laras [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="Crawl_ResultTest.setTimeElapsedAsMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="result" />
+      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
+      <option name="METHOD_NAME" value="setTimeElapsedAsMinusOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Crawl_ResultTest.setTimeElapsedToMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="result" />
+      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
+      <option name="METHOD_NAME" value="setTimeElapsedToMinusOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Crawl_ResultTest.setTimeElapsedToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="result" />
+      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
+      <option name="METHOD_NAME" value="setTimeElapsedToZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IStrategyTest.searchTestUsingMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.IStrategyTest" />
+      <option name="METHOD_NAME" value="searchTestUsingMockito" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -576,6 +845,22 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.WebCrawler_Laras [test]" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedAsMinusOne" />
+      <item itemvalue="JUnit.IStrategyTest.searchTestUsingMockito" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IStrategyTest.searchTestUsingMockito" />
+        <item itemvalue="Gradle.WebCrawler_Laras [test]" />
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedAsMinusOne" />
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -618,45 +903,179 @@
       <option name="project" value="LOCAL" />
       <updated>1528964420803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Crawl_Result Test - Constructor To Instantiate Books ArrayList Test">
+      <created>1528966579829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528966579829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Crawl_Result Test - Constructor To Instantiate Movies ArrayList Test">
+      <created>1528966669882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528966669882</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Crawl_Result Test - Constructor To Instantiate Musics ArrayList Test">
+      <created>1528966789895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528966789895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Crawl_Result Test - Add 1 Book Test">
+      <created>1528967116888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528967116888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Crawl_Result Test - Add 1 Movie Test">
+      <created>1528967214239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528967214239</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Crawl_Result Test - Add 1 Music Test">
+      <created>1528967342581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528967342581</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Crawl_Result Test - Set 0 as ID">
+      <created>1528968211307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528968211307</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Crawl_Result Test - Set -1 as ID">
+      <created>1528968278046</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528968278046</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Crawl_Result Test - Set -1 as Number of Pages">
+      <created>1528968760276</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528968760276</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Crawl_Result Test - Set 0 as Time Elapsed">
+      <created>1528969084985</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528969084985</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Crawl_Result Test - Set -1 as Time Elapsed">
+      <created>1528969145533</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528969145533</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Crawl_ResultTest_setMinusOneAsNumberOfPages - 2018.06.14 at 11h 29m 00s.xml">
+      <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setMinusOneAsNumberOfPages - 2018.06.14 at 11h 29m 29s.xml">
+      <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 38s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 44s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 45s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setTimeElapsedToMinusOne - 2018.06.14 at 11h 36m 43s.xml">
+      <configuration name="Crawl_ResultTest.setTimeElapsedToMinusOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setTimeElapsedToZero - 2018.06.14 at 11h 37m 40s.xml">
+      <configuration name="Crawl_ResultTest.setTimeElapsedToZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setTimeElapsedAsMinusOne - 2018.06.14 at 11h 38m 34s.xml">
+      <configuration name="Crawl_ResultTest.setTimeElapsedAsMinusOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setTimeElapsedAsMinusOne - 2018.06.14 at 11h 38m 47s.xml">
+      <configuration name="Crawl_ResultTest.setTimeElapsedAsMinusOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 39m 14s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1712000" />
+    <option name="totallyTimeSpent" value="6443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="779" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5006519" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.2823366" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.28" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5020576" side_tool="true" weight="0.3294271" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.4979424" visible="true" weight="0.13802083" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5006519" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.2823366" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,20 +1087,43 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Created 3 Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 3 Classes" />
+    <MESSAGE value="Crawl_Result Test - Constructor To Instantiate Books ArrayList Test" />
+    <MESSAGE value="Crawl_Result Test - Constructor To Instantiate Movies ArrayList Test" />
+    <MESSAGE value="Crawl_Result Test - Constructor To Instantiate Musics ArrayList Test" />
+    <MESSAGE value="Crawl_Result Test - Add 1 Book Test" />
+    <MESSAGE value="Crawl_Result Test - Add 1 Movie Test" />
+    <MESSAGE value="Crawl_Result Test - Add 1 Music Test" />
+    <MESSAGE value="Crawl_Result Test - Set 0 as ID" />
+    <MESSAGE value="Crawl_Result Test - Set -1 as ID" />
+    <MESSAGE value="Crawl_Result Test - Set -1 as Number of Pages" />
+    <MESSAGE value="Crawl_Result Test - Set 0 as Time Elapsed" />
+    <MESSAGE value="Crawl_Result Test - Set -1 as Time Elapsed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crawl_Result Test - Set -1 as Time Elapsed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="289">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -771,6 +1213,85 @@
             <element signature="e#846#847#0" expanded="true" />
             <element signature="e#877#878#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/main/Web_CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
