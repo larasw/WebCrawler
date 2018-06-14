@@ -1,20 +1,26 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Movie {
     private String genre;
     private String format;
     private String year;
     private String director;
-    private String[] Writers;
-    private String[] Stars;
+    private ArrayList<String> Writers;
+    private ArrayList<String> Stars;
 
-    public Movie(String genre, String format, String year, String director, String[] writers, String[] stars) {
+    public Movie(String genre, String format, String year, String director, ArrayList<String> writers, ArrayList<String> stars) {
         this.genre = genre;
         this.format = format;
         this.year = year;
         this.director = director;
         Writers = writers;
         Stars = stars;
+    }
+
+    public Movie() {
+
     }
 
     public String getGenre() {
@@ -49,19 +55,19 @@ public class Movie {
         this.director = director;
     }
 
-    public String[] getWriters() {
+    public ArrayList<String> getWriters() {
         return Writers;
     }
 
-    public void setWriters(String[] writers) {
+    public void setWriters(ArrayList<String> writers) {
         Writers = writers;
     }
 
-    public String[] getStars() {
+    public ArrayList<String> getStars() {
         return Stars;
     }
 
-    public void setStars(String[] stars) {
+    public void setStars(ArrayList<String> stars) {
         Stars = stars;
     }
 }

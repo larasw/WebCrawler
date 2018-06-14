@@ -1,20 +1,26 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Book {
     private String genre;
     private String format;
     private String year;
-    private String[] authors;
+    private ArrayList<String> authors;
     private String Publisher;
     private String ISBN;
 
-    public Book(String genre, String format, String year, String[] authors, String publisher, String ISBN) {
+    public Book(String genre, String format, String year, ArrayList<String> authors, String publisher, String ISBN) {
         this.genre = genre;
         this.format = format;
         this.year = year;
         this.authors = authors;
         Publisher = publisher;
         this.ISBN = ISBN;
+    }
+
+    public Book(){
+
     }
 
     public String getGenre() {
@@ -41,11 +47,11 @@ public class Book {
         this.year = year;
     }
 
-    public String[] getAuthors() {
+    public ArrayList<String> getAuthors() {
         return authors;
     }
 
-    public void setAuthors(String[] authors) {
+    public void setAuthors(ArrayList<String> authors) {
         this.authors = authors;
     }
 
