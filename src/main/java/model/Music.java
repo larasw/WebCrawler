@@ -13,6 +13,10 @@ public class Music {
         Artist = artist;
     }
 
+    public Music(){
+
+    }
+
     public String getGenre() {
         return genre;
     }
