@@ -20,7 +20,7 @@ public class Crawl_Result {
     }
 
     public void AddBook(Book book){
-
+        books.add(book);
     }
 
     public void AddMovie(Movie movie){
