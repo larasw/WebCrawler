@@ -11,12 +11,12 @@ public class Crawl_Result {
     private String timeElapsed;
     private ArrayList<Book> books;
     private ArrayList<Movie> movies;
-    private ArrayList<Music> music;
+    private ArrayList<Music> musics;
 
     public Crawl_Result() {
         books = new ArrayList<>();
         movies = new ArrayList<>();
-        music = new ArrayList<>();
+        musics = new ArrayList<>();
     }
 
     public void AddBook(Book book){
@@ -28,7 +28,7 @@ public class Crawl_Result {
     }
 
     public void AddMusic(Music music){
-
+        musics.add(music);
     }
 
     public ArrayList<Book> getBooks() {
@@ -40,6 +40,6 @@ public class Crawl_Result {
     }
 
     public ArrayList<Music> getMusic() {
-        return music;
+        return musics;
     }
 }

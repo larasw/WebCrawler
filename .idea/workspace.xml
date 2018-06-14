@@ -644,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Crawl_ResultTest.add1MovieTest">
+  <component name="RunManager" selected="JUnit.Crawl_ResultTest.add1MusicTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -717,7 +717,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Crawl_ResultTest.constructorToInstantiateMoviesArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Crawl_ResultTest.add1MusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -729,7 +729,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="result" />
       <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="constructorToInstantiateMoviesArrayListTest" />
+      <option name="METHOD_NAME" value="add1MusicTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -802,19 +802,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMoviesArrayListTest" />
       <item itemvalue="JUnit.Crawl_ResultTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.add1BookTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.add1MovieTest" />
+      <item itemvalue="JUnit.Crawl_ResultTest.add1MusicTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Crawl_ResultTest.add1MusicTest" />
         <item itemvalue="JUnit.Crawl_ResultTest.add1MovieTest" />
         <item itemvalue="JUnit.Crawl_ResultTest.add1BookTest" />
         <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMusicsArrayListTest" />
         <item itemvalue="JUnit.Crawl_ResultTest" />
-        <item itemvalue="JUnit.Crawl_ResultTest.constructorToInstantiateMoviesArrayListTest" />
       </list>
     </recent_temporary>
   </component>
