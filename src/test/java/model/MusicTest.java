@@ -78,6 +78,12 @@ public class MusicTest {
 
     @Test
     public void getArtist() {
+        Music music = new Music();
+
+        String artist;
+        artist = music.getArtist();
+
+        assertEquals("Artist is not Empty", null, artist);
     }
 
     @Test
