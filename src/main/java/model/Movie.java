@@ -17,5 +17,51 @@ public class Movie {
         Stars = stars;
     }
 
+    public String getGenre() {
+        return genre;
+    }
 
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public String getFormat() {
+        return format;
+    }
+
+    public void setFormat(String format) {
+        this.format = format;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public String[] getWriters() {
+        return Writers;
+    }
+
+    public void setWriters(String[] writers) {
+        Writers = writers;
+    }
+
+    public String[] getStars() {
+        return Stars;
+    }
+
+    public void setStars(String[] stars) {
+        Stars = stars;
+    }
 }
