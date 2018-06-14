@@ -130,4 +130,19 @@ public class Crawl_ResultTest {
         // assert
         assertThat(numberOfPages).isEqualTo(5);
     }
+
+    @Test
+    public void setTimeElapsedToZero() {
+        // arrange
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setTimeElapsed(10);
+        result.setTimeElapsed(0);
+        long timeResult = result.getTimeElapsed();
+
+        // assert
+        assertThat(timeResult).isEqualTo(10);
+
+    }
 }

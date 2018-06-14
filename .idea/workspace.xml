@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java" afterDir="false" />
     </list>
@@ -22,6 +23,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebCrawler" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -46,8 +78,8 @@
       <file leaf-file-name="Crawl_Result.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -64,9 +96,10 @@
                 <element signature="e#762#763#0" expanded="true" />
                 <element signature="e#902#903#0" expanded="true" />
                 <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +108,8 @@
       <file leaf-file-name="Crawl_ResultTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+            <state relative-caret-position="217">
+              <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -406,8 +439,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Music.java" />
-        <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
         <option value="$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
       </list>
     </option>
   </component>
@@ -638,7 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WebCrawler_Laras [test]">
+  <component name="RunManager" selected="JUnit.Crawl_ResultTest.setTimeElapsedToZero">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -682,29 +715,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Crawl_ResultTest.setMinusOneAsId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="result" />
-      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="setMinusOneAsId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
@@ -728,7 +738,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Crawl_ResultTest.setZeroAsId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Crawl_ResultTest.setTimeElapsedToMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -740,7 +750,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="result" />
       <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="setZeroAsId" />
+      <option name="METHOD_NAME" value="setTimeElapsedToMinusOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Crawl_ResultTest.setTimeElapsedToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="result" />
+      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
+      <option name="METHOD_NAME" value="setTimeElapsedToZero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -790,19 +823,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Crawl_ResultTest.setZeroAsId" />
-      <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsId" />
       <item itemvalue="JUnit.Crawl_ResultTest" />
       <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsNumberOfPages" />
       <item itemvalue="Gradle.WebCrawler_Laras [test]" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
+      <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToZero" />
+        <item itemvalue="JUnit.Crawl_ResultTest.setTimeElapsedToMinusOne" />
         <item itemvalue="Gradle.WebCrawler_Laras [test]" />
         <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsNumberOfPages" />
         <item itemvalue="JUnit.Crawl_ResultTest" />
-        <item itemvalue="JUnit.Crawl_ResultTest.setMinusOneAsId" />
-        <item itemvalue="JUnit.Crawl_ResultTest.setZeroAsId" />
       </list>
     </recent_temporary>
   </component>
@@ -903,28 +936,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528968278046</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Crawl_Result Test - Set -1 as Number of Pages">
+      <created>1528968760276</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528968760276</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Crawl_ResultTest_add1BookTest - 2018.06.14 at 11h 04m 18s.xml">
-      <configuration name="Crawl_ResultTest.add1BookTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_add1MovieTest - 2018.06.14 at 11h 06m 04s.xml">
-      <configuration name="Crawl_ResultTest.add1MovieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_add1MovieTest - 2018.06.14 at 11h 06m 23s.xml">
-      <configuration name="Crawl_ResultTest.add1MovieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_add1MusicTest - 2018.06.14 at 11h 07m 56s.xml">
-      <configuration name="Crawl_ResultTest.add1MusicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_add1MusicTest - 2018.06.14 at 11h 08m 50s.xml">
-      <configuration name="Crawl_ResultTest.add1MusicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Crawl_ResultTest_setZeroAsId - 2018.06.14 at 11h 20m 11s.xml">
-      <configuration name="Crawl_ResultTest.setZeroAsId" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Crawl_ResultTest_setZeroAsId - 2018.06.14 at 11h 22m 19s.xml">
       <configuration name="Crawl_ResultTest.setZeroAsId" configurationId="JUnit" />
     </history-entry>
@@ -937,38 +959,57 @@
     <history-entry file="Crawl_ResultTest - 2018.06.14 at 11h 24m 19s.xml">
       <configuration name="Crawl_ResultTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Crawl_ResultTest_setMinusOneAsNumberOfPages - 2018.06.14 at 11h 29m 00s.xml">
+      <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setMinusOneAsNumberOfPages - 2018.06.14 at 11h 29m 29s.xml">
+      <configuration name="Crawl_ResultTest.setMinusOneAsNumberOfPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 38s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 44s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WebCrawler_Laras_[test] - 2018.06.14 at 11h 31m 45s.xml">
+      <configuration name="WebCrawler_Laras [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Crawl_ResultTest_setTimeElapsedToMinusOne - 2018.06.14 at 11h 36m 43s.xml">
+      <configuration name="Crawl_ResultTest.setTimeElapsedToMinusOne" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5121000" />
+    <option name="totallyTimeSpent" value="5637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.28" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5020576" side_tool="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.28" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.4979424" visible="true" weight="0.11263021" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1017,7 +1058,8 @@
     <MESSAGE value="Crawl_Result Test - Add 1 Music Test" />
     <MESSAGE value="Crawl_Result Test - Set 0 as ID" />
     <MESSAGE value="Crawl_Result Test - Set -1 as ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crawl_Result Test - Set -1 as ID" />
+    <MESSAGE value="Crawl_Result Test - Set -1 as Number of Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crawl_Result Test - Set -1 as Number of Pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1168,8 +1210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
@@ -1186,17 +1228,18 @@
             <element signature="e#762#763#0" expanded="true" />
             <element signature="e#902#903#0" expanded="true" />
             <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+        <state relative-caret-position="217">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

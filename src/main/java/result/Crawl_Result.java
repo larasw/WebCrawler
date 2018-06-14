@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Crawl_Result {
     private int Id, numberOfPages;
-    private String timeElapsed;
+    private long timeElapsed;
     private ArrayList<Book> books;
     private ArrayList<Movie> movies;
     private ArrayList<Music> musics;
@@ -59,5 +59,14 @@ public class Crawl_Result {
     public void setNumberOfPages(int numberOfPages) {
         if(numberOfPages >= 0)
             this.numberOfPages = numberOfPages;
+    }
+
+    public long getTimeElapsed() {
+        return timeElapsed;
+    }
+
+    public void setTimeElapsed(long timeElapsed) {
+        if(timeElapsed != 0)
+            this.timeElapsed = timeElapsed;
     }
 }
