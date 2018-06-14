@@ -44,10 +44,6 @@ public class MusicTest {
     }
 
     @Test
-    public void getFormat() {
-    }
-
-    @Test
     public void setFormat() {
         Music music = new Music();
 
@@ -59,7 +55,14 @@ public class MusicTest {
     }
 
     @Test
-    public void getYear() {
+    public void getYearisEmpty() {
+        Music music = new Music();
+
+        String year;
+        year = music.getYear();
+
+        assertEquals("Data is not empty", null, year);
+
     }
 
     @Test

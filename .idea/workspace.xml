@@ -95,8 +95,8 @@
       <file leaf-file-name="MusicTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/MusicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="336">
+              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -589,32 +589,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MusicTest.FormatIsEmpty">
+  <component name="RunManager" selected="JUnit.MusicTest.getYearisEmpty">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MusicTest.ArtistIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
-      <option name="METHOD_NAME" value="ArtistIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MusicTest.FormatIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
@@ -652,6 +629,29 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
       <option name="METHOD_NAME" value="GenreIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MusicTest.getYearisEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
+      <option name="METHOD_NAME" value="getYearisEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -747,19 +747,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MusicTest.ArtistIsEmpty" />
       <item itemvalue="JUnit.MusicTest.GenreIsEmpty" />
       <item itemvalue="JUnit.MusicTest.setGenre" />
       <item itemvalue="JUnit.MusicTest.setFormat" />
       <item itemvalue="JUnit.MusicTest.FormatIsEmpty" />
+      <item itemvalue="JUnit.MusicTest.getYearisEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MusicTest.getYearisEmpty" />
         <item itemvalue="JUnit.MusicTest.FormatIsEmpty" />
         <item itemvalue="JUnit.MusicTest.setFormat" />
         <item itemvalue="JUnit.MusicTest.setGenre" />
         <item itemvalue="JUnit.MusicTest.GenreIsEmpty" />
-        <item itemvalue="JUnit.MusicTest.ArtistIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -774,7 +774,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528960741863</updated>
       <workItem from="1528960747865" duration="408000" />
-      <workItem from="1528963393376" duration="3909000" />
+      <workItem from="1528963393376" duration="4135000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -825,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528967250608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test setFormat">
+      <created>1528967332129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528967332129</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -850,9 +857,12 @@
     <history-entry file="MusicTest_setFormat - 2018.06.14 at 11h 06m 09s.xml">
       <configuration name="MusicTest.setFormat" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MusicTest_FormatIsEmpty - 2018.06.14 at 11h 08m 39s.xml">
+      <configuration name="MusicTest.FormatIsEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4317000" />
+    <option name="totallyTimeSpent" value="4543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -1019,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/MusicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="336">
+          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
