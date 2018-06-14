@@ -88,5 +88,12 @@ public class MusicTest {
 
     @Test
     public void setArtist() {
+        Music music = new Music();
+
+        String artist = "rihanna";
+        music.setArtist(artist);
+        String getartist = music.getArtist();
+
+        assertEquals("Artist not "+artist, "rihanna", getartist);
     }
 }
