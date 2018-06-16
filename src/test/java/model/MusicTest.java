@@ -9,6 +9,20 @@ import static org.junit.Assert.*;
 public class MusicTest {
 
     @Test
+    public void DataAddedThroughConstructor(){
+        Music music = new Music("pop", "iTunes", "2018", "bruno mars");
+        String genre = music.getGenre();
+        String format = music.getFormat();
+        String artist = music.getArtist();
+        String year = music.getYear();
+
+        assertNotEquals("Genre should not be zero", null, genre);
+        assertNotEquals("Format should not be zero", null, format);
+        assertNotEquals("Year should not be zero", null, year);
+        assertNotEquals("Artist should not be zero", null, artist);
+    }
+
+    @Test
     public void GenreIsEmpty() {
         Music music = new Music();
 
