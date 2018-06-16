@@ -81,8 +81,8 @@
       <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="103" column="85" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+            <state relative-caret-position="210">
+              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -587,32 +587,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.getStars">
+  <component name="RunManager" selected="JUnit.MovieTest.setStarsTakeLast">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MovieTest.getDirectorNotZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="getDirectorNotZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MovieTest.getStars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
@@ -627,6 +604,29 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
       <option name="METHOD_NAME" value="getStars" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MovieTest.getStarsShouldEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
+      <option name="METHOD_NAME" value="getStarsShouldEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -660,7 +660,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MovieTest.setDirector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.setStarsTakeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -672,7 +672,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="setDirector" />
+      <option name="METHOD_NAME" value="setStarsTakeLast" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -745,19 +745,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MovieTest.getDirectorNotZero" />
-      <item itemvalue="JUnit.MovieTest.setDirector" />
       <item itemvalue="JUnit.MovieTest.getWriters" />
       <item itemvalue="JUnit.MovieTest.setWritersAmount2" />
       <item itemvalue="JUnit.MovieTest.getStars" />
+      <item itemvalue="JUnit.MovieTest.getStarsShouldEmpty" />
+      <item itemvalue="JUnit.MovieTest.setStarsTakeLast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest.setStarsTakeLast" />
+        <item itemvalue="JUnit.MovieTest.getStarsShouldEmpty" />
         <item itemvalue="JUnit.MovieTest.getStars" />
         <item itemvalue="JUnit.MovieTest.setWritersAmount2" />
         <item itemvalue="JUnit.MovieTest.getWriters" />
-        <item itemvalue="JUnit.MovieTest.setDirector" />
-        <item itemvalue="JUnit.MovieTest.getDirectorNotZero" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +773,7 @@
       <updated>1528960741863</updated>
       <workItem from="1528960747865" duration="408000" />
       <workItem from="1528963393376" duration="9253000" />
-      <workItem from="1529170393313" duration="8703000" />
+      <workItem from="1529170393313" duration="8916000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -929,16 +929,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529192328842</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="getlaststar">
+      <created>1529193195874</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1529193195874</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest_setGenre - 2018.06.16 at 20h 55m 16s.xml">
-      <configuration name="MovieTest.setGenre" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest_getFormatShouldnotEmpty - 2018.06.16 at 20h 56m 46s.xml">
-      <configuration name="MovieTest.getFormatShouldnotEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 15s.xml">
       <configuration name="MovieTest.setFormat" configurationId="JUnit" />
     </history-entry>
@@ -963,9 +964,15 @@
     <history-entry file="MovieTest_setWritersAmount2 - 2018.06.17 at 01h 38m 25s.xml">
       <configuration name="MovieTest.setWritersAmount2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieTest_getStars - 2018.06.17 at 01h 52m 54s.xml">
+      <configuration name="MovieTest.getStars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_getStarsShouldEmpty - 2018.06.17 at 01h 56m 06s.xml">
+      <configuration name="MovieTest.getStarsShouldEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18364000" />
+    <option name="totallyTimeSpent" value="18577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -1028,7 +1035,8 @@
     <MESSAGE value="getDirectorNotZero" />
     <MESSAGE value="getWriters" />
     <MESSAGE value="setWritersAmountIs2" />
-    <option name="LAST_COMMIT_MESSAGE" value="setWritersAmountIs2" />
+    <MESSAGE value="getlaststar" />
+    <option name="LAST_COMMIT_MESSAGE" value="getlaststar" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1158,8 +1166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="103" column="85" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+        <state relative-caret-position="210">
+          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
         </state>
       </provider>
     </entry>
