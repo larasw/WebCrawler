@@ -49,6 +49,11 @@ public class MovieTest {
 
     @Test
     public void setYear() {
+        Movie movie = new Movie();
+        String setYear = "2016";
+        movie.setYear(setYear);
+        String year = movie.getYear();
+        assertEquals("Year is not "+setYear, "2016", year);
     }
 
     @Test

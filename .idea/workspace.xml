@@ -81,8 +81,8 @@
       <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="399">
+              <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -587,26 +587,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.setFormat">
+  <component name="RunManager" selected="JUnit.MovieTest.setYear">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="WebCrawler_Caesar [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration name="MovieTest.getFormatShouldnotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
@@ -631,7 +614,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MovieTest.getGenreShouldEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.getYearNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -643,7 +626,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="getGenreShouldEmpty" />
+      <option name="METHOD_NAME" value="getYearNotEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -700,6 +683,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="MovieTest.setYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
+      <option name="METHOD_NAME" value="setYear" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -739,19 +745,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Gradle.WebCrawler_Caesar [test]" />
-      <item itemvalue="JUnit.MovieTest.getGenreShouldEmpty" />
       <item itemvalue="JUnit.MovieTest.setGenre" />
       <item itemvalue="JUnit.MovieTest.getFormatShouldnotEmpty" />
       <item itemvalue="JUnit.MovieTest.setFormat" />
+      <item itemvalue="JUnit.MovieTest.getYearNotEmpty" />
+      <item itemvalue="JUnit.MovieTest.setYear" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest.setYear" />
+        <item itemvalue="JUnit.MovieTest.getYearNotEmpty" />
         <item itemvalue="JUnit.MovieTest.setFormat" />
         <item itemvalue="JUnit.MovieTest.getFormatShouldnotEmpty" />
         <item itemvalue="JUnit.MovieTest.setGenre" />
-        <item itemvalue="JUnit.MovieTest.getGenreShouldEmpty" />
-        <item itemvalue="Gradle.WebCrawler_Caesar [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -767,7 +773,7 @@
       <updated>1528960741863</updated>
       <workItem from="1528960747865" duration="408000" />
       <workItem from="1528963393376" duration="9253000" />
-      <workItem from="1529170393313" duration="3172000" />
+      <workItem from="1529170393313" duration="4434000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -874,16 +880,24 @@
       <option name="project" value="LOCAL" />
       <updated>1529175429471</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="setFormat">
+      <created>1529175652185</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1529175652185</updated>
+    </task>
+    <task id="LOCAL-00017" summary="getYearNotEmpty">
+      <created>1529187557203</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529187557203</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MusicTest_setArtist - 2018.06.14 at 11h 42m 58s.xml">
-      <configuration name="MusicTest.setArtist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebCrawler_Caesar_[test] - 2018.06.14 at 11h 54m 34s.xml">
-      <configuration name="WebCrawler_Caesar [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MusicTest_DataAddedThroughConstructor - 2018.06.14 at 17h 53m 20s.xml">
       <configuration name="MusicTest.DataAddedThroughConstructor" configurationId="JUnit" />
     </history-entry>
@@ -908,9 +922,15 @@
     <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 15s.xml">
       <configuration name="MovieTest.setFormat" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 36s.xml">
+      <configuration name="MovieTest.setFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_getYearNotEmpty - 2018.06.17 at 00h 18m 58s.xml">
+      <configuration name="MovieTest.getYearNotEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12833000" />
+    <option name="totallyTimeSpent" value="14095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -968,7 +988,9 @@
     <MESSAGE value="setArtist tes" />
     <MESSAGE value="getGenre" />
     <MESSAGE value="GetFormatShouldnotEmpty" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetFormatShouldnotEmpty" />
+    <MESSAGE value="setFormat" />
+    <MESSAGE value="getYearNotEmpty" />
+    <option name="LAST_COMMIT_MESSAGE" value="getYearNotEmpty" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1098,8 +1120,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="399">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
         </state>
       </provider>
     </entry>
