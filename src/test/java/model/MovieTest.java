@@ -95,6 +95,13 @@ public class MovieTest {
 
     @Test
     public void getStars() {
+        Movie movie = new Movie();
+        ArrayList<String> stars = new ArrayList<>();
+        stars.add("The Rock");
+        stars.add("Daniel Radclife");
+        movie.setStars(stars);
+        String laststar = movie.getStars().get(movie.getStars().size()-1);
+        assertEquals("Last star is not Daniel Radclife", "Daniel Radclife", laststar);
     }
 
     @Test
