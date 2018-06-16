@@ -65,6 +65,11 @@ public class MovieTest {
 
     @Test
     public void setDirector() {
+        Movie movie = new Movie();
+        String setDirector = "Stephen Spielberg";
+        movie.setDirector(setDirector);
+        String director = movie.getDirector();
+        assertEquals("Director is not "+setDirector, "Stephen Spielberg", director);
     }
 
     @Test
