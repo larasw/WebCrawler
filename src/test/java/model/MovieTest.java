@@ -25,7 +25,10 @@ public class MovieTest {
     }
 
     @Test
-    public void getFormat() {
+    public void getFormatShouldnotEmpty() {
+        Movie movie = new Movie();
+        String format = movie.getFormat();
+        assertEquals("Format is empty", null, format);
     }
 
     @Test
