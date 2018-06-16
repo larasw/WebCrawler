@@ -57,7 +57,10 @@ public class MovieTest {
     }
 
     @Test
-    public void getDirector() {
+    public void getDirectorNotZero() {
+        Movie movie = new Movie();
+        String director = movie.getDirector();
+        assertEquals("Director is not empty", null, director);
     }
 
     @Test
