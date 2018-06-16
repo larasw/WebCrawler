@@ -83,7 +83,14 @@ public class MovieTest {
     }
 
     @Test
-    public void setWriters() {
+    public void setWritersAmount2() {
+        Movie movie = new Movie();
+        ArrayList<String> writers = new ArrayList<>();
+        writers.add("James");
+        writers.add("Laras");
+        movie.setWriters(writers);
+        int amount = movie.getWriters().size();
+        assertEquals("Amount is not 2", 2, amount);
     }
 
     @Test
