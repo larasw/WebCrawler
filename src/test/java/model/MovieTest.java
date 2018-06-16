@@ -41,7 +41,10 @@ public class MovieTest {
     }
 
     @Test
-    public void getYear() {
+    public void getYearNotEmpty() {
+        Movie movie = new Movie();
+        String year = movie.getYear();
+        assertEquals("Year is not empty", null, year);
     }
 
     @Test
