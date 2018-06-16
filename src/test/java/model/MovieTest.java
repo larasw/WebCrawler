@@ -2,6 +2,8 @@ package model;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class MovieTest {
@@ -74,6 +76,10 @@ public class MovieTest {
 
     @Test
     public void getWriters() {
+        Movie movie = new Movie();
+        ArrayList<String> writers = movie.getWriters();
+        assertEquals("Writers not null", null, writers);
+
     }
 
     @Test
