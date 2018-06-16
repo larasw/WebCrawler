@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/MovieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/MusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/MusicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/MovieTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -87,8 +81,8 @@
       <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="294">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -593,7 +587,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.getGenreShouldEmpty">
+  <component name="RunManager" selected="JUnit.MovieTest.setFormat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -613,6 +607,29 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+    </configuration>
+    <configuration name="MovieTest.getFormatShouldnotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
+      <option name="METHOD_NAME" value="getFormatShouldnotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MovieTest.getGenreShouldEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
@@ -637,7 +654,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MusicTest.DataAddedThroughConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.setFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -648,8 +665,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
-      <option name="METHOD_NAME" value="DataAddedThroughConstructor" />
+      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
+      <option name="METHOD_NAME" value="setFormat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -660,7 +677,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MusicTest.getArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.setGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -671,31 +688,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
-      <option name="METHOD_NAME" value="getArtist" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MusicTest.setArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MusicTest" />
-      <option name="METHOD_NAME" value="setArtist" />
+      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
+      <option name="METHOD_NAME" value="setGenre" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -745,19 +739,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MusicTest.getArtist" />
-      <item itemvalue="JUnit.MusicTest.setArtist" />
       <item itemvalue="Gradle.WebCrawler_Caesar [test]" />
-      <item itemvalue="JUnit.MusicTest.DataAddedThroughConstructor" />
       <item itemvalue="JUnit.MovieTest.getGenreShouldEmpty" />
+      <item itemvalue="JUnit.MovieTest.setGenre" />
+      <item itemvalue="JUnit.MovieTest.getFormatShouldnotEmpty" />
+      <item itemvalue="JUnit.MovieTest.setFormat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest.setFormat" />
+        <item itemvalue="JUnit.MovieTest.getFormatShouldnotEmpty" />
+        <item itemvalue="JUnit.MovieTest.setGenre" />
         <item itemvalue="JUnit.MovieTest.getGenreShouldEmpty" />
         <item itemvalue="Gradle.WebCrawler_Caesar [test]" />
-        <item itemvalue="JUnit.MusicTest.DataAddedThroughConstructor" />
-        <item itemvalue="JUnit.MusicTest.setArtist" />
-        <item itemvalue="JUnit.MusicTest.getArtist" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +767,7 @@
       <updated>1528960741863</updated>
       <workItem from="1528960747865" duration="408000" />
       <workItem from="1528963393376" duration="9253000" />
-      <workItem from="1529170393313" duration="2219000" />
+      <workItem from="1529170393313" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -866,19 +860,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528977602597</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="getGenre">
+      <created>1529172869084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1529172869084</updated>
+    </task>
+    <task id="LOCAL-00015" summary="GetFormatShouldnotEmpty">
+      <created>1529175429471</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1529175429471</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MusicTest_getYearisEmpty - 2018.06.14 at 11h 12m 17s.xml">
-      <configuration name="MusicTest.getYearisEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MusicTest_setYear - 2018.06.14 at 11h 17m 08s.xml">
-      <configuration name="MusicTest.setYear" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MusicTest_getArtist - 2018.06.14 at 11h 38m 32s.xml">
-      <configuration name="MusicTest.getArtist" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MusicTest_setArtist - 2018.06.14 at 11h 42m 58s.xml">
       <configuration name="MusicTest.setArtist" configurationId="JUnit" />
     </history-entry>
@@ -900,9 +899,18 @@
     <history-entry file="MovieTest_getGenreShouldEmpty - 2018.06.16 at 20h 01m 40s.xml">
       <configuration name="MovieTest.getGenreShouldEmpty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieTest_setGenre - 2018.06.16 at 20h 55m 16s.xml">
+      <configuration name="MovieTest.setGenre" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_getFormatShouldnotEmpty - 2018.06.16 at 20h 56m 46s.xml">
+      <configuration name="MovieTest.getFormatShouldnotEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 15s.xml">
+      <configuration name="MovieTest.setFormat" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11880000" />
+    <option name="totallyTimeSpent" value="12833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -958,7 +966,9 @@
     <MESSAGE value="setYear" />
     <MESSAGE value="getArtist null test" />
     <MESSAGE value="setArtist tes" />
-    <option name="LAST_COMMIT_MESSAGE" value="setArtist tes" />
+    <MESSAGE value="getGenre" />
+    <MESSAGE value="GetFormatShouldnotEmpty" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetFormatShouldnotEmpty" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1088,8 +1098,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="294">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>

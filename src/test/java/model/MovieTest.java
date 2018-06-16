@@ -19,7 +19,7 @@ public class MovieTest {
     public void setGenre() {
         Movie movie = new Movie();
         String setgrenre = "Horror";
-        movie.setGenre("Horror");
+        movie.setGenre(setgrenre);
         String genre = movie.getGenre();
         assertEquals("Genre is not "+setgrenre, "Horror", genre);
     }
@@ -33,6 +33,11 @@ public class MovieTest {
 
     @Test
     public void setFormat() {
+        Movie movie = new Movie();
+        String setformat = "MKV";
+        movie.setFormat(setformat);
+        String format = movie.getFormat();
+        assertEquals("Format is not "+setformat, "MKV", format);
     }
 
     @Test
