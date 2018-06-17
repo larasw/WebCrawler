@@ -12,8 +12,10 @@ public class DFSTest {
     @Test
     public void getPageLinksNotNullTest() {
         DFS dfs = new DFS();
-        dfs.getPageLinks("");
-        assertThat(dfs.getLinks(),null);
+        dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
+        assertThat(dfs.getLinks(),notNullValue());
+        assertThat(dfs.getLinks(),not("[]"));
+        assertThat(dfs.getLinks().toString(),containsString("sample_site_to_crawl"));
     }
 
     @Test
