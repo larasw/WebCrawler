@@ -77,14 +77,20 @@ public class BookTest {
     public void getYear() {
         Book book = new Book();
 
-        Stri
-        //assertEquals();
+        String year = book.getYear();
+
+        assertEquals("Year is not empty", null, year);
     }
 
     @Test
     public void setYear() {
         Book book = new Book();
-        //assertEquals();
+
+        String year = "1996";
+        book.setYear(year);
+        String getyear = book.getYear();
+
+        assertEquals("Year is not 1996", year, getyear);
     }
 
     @Test
