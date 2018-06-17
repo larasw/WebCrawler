@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
 
 public class MovieTest {
 
+    /**
+     * Method to test the constructor method from Movie class
+     */
     @Test
     public void getdatafromconstructor(){
         ArrayList<String> stars = new ArrayList<>();
@@ -36,6 +39,9 @@ public class MovieTest {
         assertEquals("Director is not adam driver", "Adam Driver", takedirector);
     }
 
+    /**
+     * Test to get the genre from the movie while its empty
+     */
     @Test
     public void getGenreShouldEmpty() {
         Movie movie = new Movie();
@@ -45,6 +51,9 @@ public class MovieTest {
         assertEquals("Genre not empty", null, genre);
     }
 
+    /**
+     * Test to set the genre to the movie
+     */
     @Test
     public void setGenre() {
         Movie movie = new Movie();
@@ -54,13 +63,19 @@ public class MovieTest {
         assertEquals("Genre is not "+setgrenre, "Horror", genre);
     }
 
+    /**
+     * Test to get the format of the movie while its empty
+     */
     @Test
-    public void getFormatShouldnotEmpty() {
+    public void getFormatShouldEmpty() {
         Movie movie = new Movie();
         String format = movie.getFormat();
-        assertEquals("Format is empty", null, format);
+        assertEquals("Format is not empty", null, format);
     }
 
+    /**
+     * test to set the movie format
+     */
     @Test
     public void setFormat() {
         Movie movie = new Movie();
@@ -70,6 +85,9 @@ public class MovieTest {
         assertEquals("Format is not "+setformat, "MKV", format);
     }
 
+    /**
+     * Test to get the year while its empty
+     */
     @Test
     public void getYearNotEmpty() {
         Movie movie = new Movie();
@@ -77,6 +95,9 @@ public class MovieTest {
         assertEquals("Year is not empty", null, year);
     }
 
+    /**
+     * Test to set the year to the movie
+     */
     @Test
     public void setYear() {
         Movie movie = new Movie();
@@ -86,6 +107,9 @@ public class MovieTest {
         assertEquals("Year is not "+setYear, "2016", year);
     }
 
+    /**
+     * Test to get the director name while its empty
+     */
     @Test
     public void getDirectorNotZero() {
         Movie movie = new Movie();
@@ -93,6 +117,9 @@ public class MovieTest {
         assertEquals("Director is not empty", null, director);
     }
 
+    /**
+     * Test to set the director name to the movie
+     */
     @Test
     public void setDirector() {
         Movie movie = new Movie();
@@ -102,6 +129,9 @@ public class MovieTest {
         assertEquals("Director is not "+setDirector, "Stephen Spielberg", director);
     }
 
+    /**
+     * Test to get the writers list while its null
+     */
     @Test
     public void getWriters() {
         Movie movie = new Movie();
@@ -110,6 +140,9 @@ public class MovieTest {
 
     }
 
+    /**
+     * Test to set the writers and count the amount
+     */
     @Test
     public void setWritersAmount2() {
         Movie movie = new Movie();
@@ -121,6 +154,9 @@ public class MovieTest {
         assertEquals("Amount is not 2", 2, amount);
     }
 
+    /**
+     * Test to get the stars list while its empty
+     */
     @Test
     public void getStarsShouldEmpty() {
         Movie movie = new Movie();
@@ -130,6 +166,9 @@ public class MovieTest {
         assertEquals("Stars is not empty", null, stars);
     }
 
+    /**
+     * Test to set the stars list and take the last entry
+     */
     @Test
     public void setStarsTakeLast() {
         Movie movie = new Movie();
