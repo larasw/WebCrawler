@@ -1,6 +1,13 @@
 package strategy;
 
+import java.util.ArrayList;
+
 public class DFS {
+    private ArrayList<String> links;
+
+    public DFS() {
+        links = new ArrayList<>();
+    }
 
     public void getPageLinks(String URL) {
 
