@@ -21,7 +21,7 @@ public class DFSTest {
     public void getPageLinksCorrectResult(){
         DFS dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
-        assertThat(dfs.getLinks().toString(),containsString("wrong"));
+        assertThat(dfs.getLinks().toString(),containsString("sample_site_to_crawl"));
     }
 
     @Test
