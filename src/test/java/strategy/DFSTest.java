@@ -28,7 +28,7 @@ public class DFSTest {
     public void extractorNotNullandCorrectResultTest() {
         DFS dfs = new DFS();
         dfs.extractor("Design");
-        assertThat(dfs.getExtractResult().toString(),containsString("lala"));
+        assertThat(dfs.getExtractResult().toString(),containsString("Design"));
     }
 
     @Test
