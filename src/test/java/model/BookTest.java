@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
 
 public class BookTest {
 
+    /**
+     * This is test for Constructor in Book Class
+     */
     @Test
     public void constructorBookTest(){
         // arrange
@@ -33,6 +36,9 @@ public class BookTest {
         assertEquals("Publisher is not Airlangga", publisher, book.getPublisher());
     }
 
+    /**
+     * This is test for get genre when its null
+     */
     @Test
     public void getGenre() {
         Book book = new Book();
@@ -42,6 +48,9 @@ public class BookTest {
         assertEquals("Genre not empty", null,genre);
     }
 
+    /**
+     * Test to set the genre
+     */
     @Test
     public void setGenre() {
         Book book = new Book();
@@ -53,6 +62,9 @@ public class BookTest {
         assertEquals("Genre is not Love", setGenre, genre);
     }
 
+    /**
+     * Test to get the Format when its null
+     */
     @Test
     public void getFormat() {
         Book book = new Book();
@@ -62,6 +74,9 @@ public class BookTest {
         assertEquals("Format is not empty", null, format);
     }
 
+    /**
+     * Test to set the Format
+     */
     @Test
     public void setFormat() {
         Book book = new Book();
@@ -73,6 +88,9 @@ public class BookTest {
         assertEquals("Format is not pdf", setFormat, format);
     }
 
+    /**
+     * Test to get the year when its null
+     */
     @Test
     public void getYear() {
         Book book = new Book();
@@ -82,6 +100,9 @@ public class BookTest {
         assertEquals("Year is not empty", null, year);
     }
 
+    /**
+     * Test to set the year
+     */
     @Test
     public void setYear() {
         Book book = new Book();
@@ -93,6 +114,9 @@ public class BookTest {
         assertEquals("Year is not 1996", year, getyear);
     }
 
+    /**
+     * Test to get the authors when null
+     */
     @Test
     public void getAuthors() {
         Book book = new Book();
@@ -102,6 +126,9 @@ public class BookTest {
         assertEquals("Authot is not Empty", null, author);
     }
 
+    /**
+     * Test to set the authors
+     */
     @Test
     public void setAuthors() {
         Book book = new Book();
@@ -113,6 +140,9 @@ public class BookTest {
         assertEquals("Amount of authors not 1", 1, book.getAuthors().size());
     }
 
+    /**
+     * Test to get the publisher when null
+     */
     @Test
     public void getPublisher() {
         Book book = new Book();
@@ -122,6 +152,9 @@ public class BookTest {
         assertEquals("publisher not empty", null, publisher);
     }
 
+    /**
+     * Test to set the publisher
+     */
     @Test
     public void setPublisher() {
         Book book = new Book();
@@ -132,6 +165,9 @@ public class BookTest {
         assertEquals("publsher is not Airlangga", setpublisher, publisher);
     }
 
+    /**
+     * Test to get the publisher when null
+     */
     @Test
     public void getISBN() {
         Book book = new Book();
@@ -141,6 +177,9 @@ public class BookTest {
         assertEquals("ISBN is not empty", null, isbn);
     }
 
+    /**
+     * Test to set the ISBN for the book
+     */
     @Test
     public void setISBN() {
         Book book = new Book();
