@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/MovieTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -73,8 +59,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27541">
-              <caret line="560" column="110" selection-start-line="560" selection-start-column="110" selection-end-line="560" selection-end-column="110" />
+            <state relative-caret-position="169">
+              <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -510,93 +496,6 @@
               <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1009,7 +908,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19051000" />
+    <option name="totallyTimeSpent" value="19177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1094,7 +993,8 @@
     <MESSAGE value="Crawl_Result Test - Set -1 as Time Elapsed" />
     <MESSAGE value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#   gradle" />
     <MESSAGE value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/larasw/WebCrawler&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.4/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/larasw/WebCrawler&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.4/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1147,8 +1047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27541">
-          <caret line="560" column="110" selection-start-line="560" selection-start-column="110" selection-end-line="560" selection-end-column="110" />
+        <state relative-caret-position="169">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
         </state>
       </provider>
     </entry>
