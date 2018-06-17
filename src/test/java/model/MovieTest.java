@@ -9,6 +9,34 @@ import static org.junit.Assert.*;
 public class MovieTest {
 
     @Test
+    public void getdatafromconstructor(){
+        ArrayList<String> stars = new ArrayList<>();
+        stars.add("Jeniffer");
+        stars.add("Jim Carey");
+        ArrayList<String> writers = new ArrayList<>();
+        writers.add("Bob Burton");
+        writers.add("Yogesh");
+        writers.add("Hela");
+        String genre = "comedy";
+        String format = "mkv";
+        String year = "1996";
+        String director = "Adam Driver";
+        Movie movie = new Movie(genre, format, year, director, writers, stars);
+        int amountstars = movie.getStars().size();
+        int amountwriters = movie.getWriters().size();
+        String takegenre = movie.getGenre();
+        String takeformat = movie.getFormat();
+        String takeyear = movie.getYear();
+        String takedirector = movie.getDirector();
+        assertEquals("Amount starts not 2", 2, amountstars);
+        assertEquals("Amount writers not 3", 3, amountwriters);
+        assertEquals("Genre not commedy", "comedy", takegenre);
+        assertEquals("Format not MKV", "mkv", takeformat);
+        assertEquals("Year is not 1996", "1996", takeyear);
+        assertEquals("Director is not adam driver", "Adam Driver", takedirector);
+    }
+
+    @Test
     public void getGenreShouldEmpty() {
         Movie movie = new Movie();
 
