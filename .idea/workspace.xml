@@ -140,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/model/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+              <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -597,7 +597,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.setGenre">
+  <component name="RunManager" selected="JUnit.BookTest.getFormat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -763,9 +763,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookTest.getFormat" />
         <item itemvalue="JUnit.BookTest.setGenre" />
         <item itemvalue="JUnit.BookTest.getGenre" />
-        <item itemvalue="JUnit.BookTest.getFormat" />
         <item itemvalue="JUnit.BookTest.constructorBookTest" />
         <item itemvalue="JUnit.MovieTest.getdatafromconstructor" />
       </list>
@@ -785,7 +785,7 @@
       <workItem from="1528963393376" duration="9253000" />
       <workItem from="1529170393313" duration="9545000" />
       <workItem from="1529195289223" duration="1688000" />
-      <workItem from="1529248107222" duration="7850000" />
+      <workItem from="1529248107222" duration="7972000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -969,13 +969,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529260586222</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ConstructorBook">
+      <created>1529262684455</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1529262684455</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest_getDirectorNotZero - 2018.06.17 at 00h 33m 43s.xml">
-      <configuration name="MovieTest.getDirectorNotZero" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MovieTest_setDirector - 2018.06.17 at 00h 59m 26s.xml">
       <configuration name="MovieTest.setDirector" configurationId="JUnit" />
     </history-entry>
@@ -1003,9 +1007,12 @@
     <history-entry file="BookTest_getGenre - 2018.06.17 at 21h 07m 57s.xml">
       <configuration name="BookTest.getGenre" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookTest_setGenre - 2018.06.17 at 21h 10m 36s.xml">
+      <configuration name="BookTest.setGenre" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28744000" />
+    <option name="totallyTimeSpent" value="28866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -1348,7 +1355,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/model/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+          <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
         </state>
       </provider>
     </entry>

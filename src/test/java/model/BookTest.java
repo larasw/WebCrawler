@@ -59,7 +59,7 @@ public class BookTest {
 
         String format = book.getFormat();
 
-        //assertEquals();
+        assertEquals("Format is not empty", null, format);
     }
 
     @Test
