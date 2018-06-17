@@ -8,6 +8,9 @@ import static org.junit.Assert.*;
 
 public class MusicTest {
 
+    /**
+     * Test to add data use constructor
+     */
     @Test
     public void DataAddedThroughConstructor(){
         Music music = new Music("pop", "iTunes", "2018", "bruno mars");
@@ -22,6 +25,9 @@ public class MusicTest {
         assertNotEquals("Artist should not be zero", null, artist);
     }
 
+    /**
+     * Test get genre when its null
+     */
     @Test
     public void GenreIsEmpty() {
         Music music = new Music();
@@ -31,6 +37,9 @@ public class MusicTest {
         assertEquals("Data is not empty",null, genre);
     }
 
+    /**
+     * Test get the format when its null
+     */
     @Test
     public void FormatIsEmpty() {
         Music music = new Music();
@@ -40,6 +49,9 @@ public class MusicTest {
         assertEquals("Data is not empty",null, format);
     }
 
+    /**
+     * Test to set the genre value
+     */
     @Test
     public void setGenre() {
         Music music = new Music();
@@ -51,6 +63,9 @@ public class MusicTest {
         assertEquals("Genre is not "+genre, "rock", getgenre);
     }
 
+    /**
+     * Test to set the value of music format
+     */
     @Test
     public void setFormat() {
         Music music = new Music();
@@ -62,6 +77,9 @@ public class MusicTest {
         assertEquals("Format is not "+format, "mp3", getformat);
     }
 
+    /**
+     * Test to get the year when its null
+     */
     @Test
     public void getYearisEmpty() {
         Music music = new Music();
@@ -73,6 +91,9 @@ public class MusicTest {
 
     }
 
+    /**
+     * test to set the  year value
+     */
     @Test
     public void setYear() {
         Music music = new Music();
@@ -84,6 +105,9 @@ public class MusicTest {
         assertEquals("Year is not 1996", "1996", getyear);
     }
 
+    /**
+     * Test to get the artist name when its null
+     */
     @Test
     public void getArtist() {
         Music music = new Music();
@@ -94,6 +118,9 @@ public class MusicTest {
         assertEquals("Artist is not Empty", null, artist);
     }
 
+    /**
+     * Test to set thea artist name
+     */
     @Test
     public void setArtist() {
         Music music = new Music();
