@@ -135,7 +135,10 @@ public class BookTest {
     @Test
     public void getISBN() {
         Book book = new Book();
-        //assertEquals();
+
+        String isbn = book.getISBN();
+
+        assertEquals("ISBN is not empty", null, isbn);
     }
 
     @Test

@@ -139,8 +139,8 @@
       <file leaf-file-name="BookTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
+            <state relative-caret-position="168">
+              <caret line="138" column="37" selection-start-line="138" selection-start-column="37" selection-end-line="138" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -597,7 +597,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.setPublisher">
+  <component name="RunManager" selected="JUnit.BookTest.getISBN">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -614,6 +614,29 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.BookTest" />
       <option name="METHOD_NAME" value="getAuthors" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BookTest.getISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BookTest" />
+      <option name="METHOD_NAME" value="getISBN" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -693,29 +716,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BookTest.setYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BookTest" />
-      <option name="METHOD_NAME" value="setYear" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -755,19 +755,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookTest.setYear" />
       <item itemvalue="JUnit.BookTest.getAuthors" />
       <item itemvalue="JUnit.BookTest.setAuthors" />
       <item itemvalue="JUnit.BookTest.getPublisher" />
       <item itemvalue="JUnit.BookTest.setPublisher" />
+      <item itemvalue="JUnit.BookTest.getISBN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookTest.getISBN" />
         <item itemvalue="JUnit.BookTest.setPublisher" />
         <item itemvalue="JUnit.BookTest.getPublisher" />
         <item itemvalue="JUnit.BookTest.setAuthors" />
         <item itemvalue="JUnit.BookTest.getAuthors" />
-        <item itemvalue="JUnit.BookTest.setYear" />
       </list>
     </recent_temporary>
   </component>
@@ -785,7 +785,7 @@
       <workItem from="1528963393376" duration="9253000" />
       <workItem from="1529170393313" duration="9545000" />
       <workItem from="1529195289223" duration="1688000" />
-      <workItem from="1529248107222" duration="12095000" />
+      <workItem from="1529248107222" duration="12142000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -1018,13 +1018,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529268728593</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="setPublisher">
+      <created>1529269215450</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1529269215450</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_getFormat - 2018.06.17 at 21h 12m 35s.xml">
-      <configuration name="BookTest.getFormat" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookTest_setFormat - 2018.06.17 at 21h 15m 04s.xml">
       <configuration name="BookTest.setFormat" configurationId="JUnit" />
     </history-entry>
@@ -1052,9 +1056,12 @@
     <history-entry file="BookTest_getPublisher - 2018.06.17 at 22h 51m 44s.xml">
       <configuration name="BookTest.getPublisher" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookTest_setPublisher - 2018.06.17 at 22h 59m 57s.xml">
+      <configuration name="BookTest.setPublisher" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32989000" />
+    <option name="totallyTimeSpent" value="33036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -1122,7 +1129,8 @@
     <MESSAGE value="setYear" />
     <MESSAGE value="getAuthor" />
     <MESSAGE value="getPublisher" />
-    <option name="LAST_COMMIT_MESSAGE" value="getPublisher" />
+    <MESSAGE value="setPublisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="setPublisher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,8 +1411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
+        <state relative-caret-position="168">
+          <caret line="138" column="37" selection-start-line="138" selection-start-column="37" selection-end-line="138" selection-end-column="37" />
         </state>
       </provider>
     </entry>
