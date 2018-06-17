@@ -38,6 +38,8 @@ public class BookTest {
         Book book = new Book();
 
         String genre = book.getGenre();
+
+        assertEquals("Genre not empty", null,genre);
     }
 
     @Test
@@ -47,6 +49,8 @@ public class BookTest {
         String setGenre = "Love";
         book.setGenre(setGenre);
         String genre = book.getGenre();
+
+        assertEquals("Genre is not Love", setGenre, genre);
     }
 
     @Test
@@ -55,61 +59,61 @@ public class BookTest {
 
         String format = book.getFormat();
 
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void setFormat() {
         Book book = new Book();
 
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void getYear() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void setYear() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void getAuthors() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void setAuthors() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void getPublisher() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void setPublisher() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void getISBN() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
     public void setISBN() {
         Book book = new Book();
-        assertEquals();
+        //assertEquals();
     }
 }
