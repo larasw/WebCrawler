@@ -105,7 +105,12 @@ public class BookTest {
     @Test
     public void setAuthors() {
         Book book = new Book();
-        //assertEquals();
+
+        ArrayList<String> authors = new ArrayList<>();
+        authors.add("James Burton");
+        book.setAuthors(authors);
+
+        assertEquals("Amount of authors not 1", 1, book.getAuthors().size());
     }
 
     @Test
