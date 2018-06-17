@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +13,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WebCrawler_Laras$WebCrawler_Laras__test_.ic" NAME="WebCrawler_Laras [test] Coverage Results" MODIFIED="1528968700499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/WebCrawler$WebCrawler_Laras__test_.ic" NAME="WebCrawler_Laras [test] Coverage Results" MODIFIED="1528976626759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WebCrawler$DFSTest.ic" NAME="DFSTest Coverage Results" MODIFIED="1529261806908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>strategy.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -74,39 +73,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFS.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DFS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strategy/DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="260">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Web_Crawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DFSTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DFSTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="226">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -421,9 +410,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/main/Web_Crawler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/DFS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" />
       </list>
     </option>
   </component>
@@ -721,7 +710,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DFSTest.getPageLinksNotNullTest">
+  <component name="RunManager" selected="JUnit.DFSTest.getPageLinksCorrectResult">
     <configuration name="Web_Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Web_Crawler" />
       <module name="WebCrawler_main" />
@@ -736,7 +725,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DFSTest.getPageLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -748,7 +737,53 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="strategy" />
       <option name="MAIN_CLASS_NAME" value="strategy.DFSTest" />
-      <option name="METHOD_NAME" value="getPageLinks" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DFSTest.extractor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSTest" />
+      <option name="METHOD_NAME" value="extractor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DFSTest.getPageLinksCorrectResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSTest" />
+      <option name="METHOD_NAME" value="getPageLinksCorrectResult" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -821,15 +856,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DFSTest.getPageLinks" />
       <item itemvalue="JUnit.DFSTest.getPageLinksNotNullTest" />
       <item itemvalue="Application.Web_Crawler" />
+      <item itemvalue="JUnit.DFSTest" />
+      <item itemvalue="JUnit.DFSTest.extractor" />
+      <item itemvalue="JUnit.DFSTest.getPageLinksCorrectResult" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DFSTest.getPageLinksCorrectResult" />
+        <item itemvalue="JUnit.DFSTest.extractor" />
+        <item itemvalue="JUnit.DFSTest" />
         <item itemvalue="JUnit.DFSTest.getPageLinksNotNullTest" />
         <item itemvalue="Application.Web_Crawler" />
-        <item itemvalue="JUnit.DFSTest.getPageLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -845,7 +884,7 @@
       <updated>1528960741863</updated>
       <workItem from="1528960747865" duration="408000" />
       <workItem from="1529140840262" duration="1774000" />
-      <workItem from="1529240968628" duration="6718000" />
+      <workItem from="1529240968628" duration="8202000" />
     </task>
     <task id="LOCAL-00001" summary="Adding DFS Class">
       <created>1529258066371</created>
@@ -875,19 +914,24 @@
       <option name="project" value="LOCAL" />
       <updated>1529260582615</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add dependency to gradle and DFS getPageLinkNotNullTest (green+refactor)">
+      <created>1529261061171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529261061171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DFS extractorNotNullTest(red)">
+      <created>1529262239807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529262239807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DFSTest_getPageLinks - 2018.06.17 at 20h 26m 05s.xml">
-      <configuration name="DFSTest.getPageLinks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DFSTest_getPageLinks - 2018.06.17 at 20h 26m 39s.xml">
-      <configuration name="DFSTest.getPageLinks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DFSTest_getPageLinksNotNullTest - 2018.06.17 at 20h 30m 10s.xml">
-      <configuration name="DFSTest.getPageLinksNotNullTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DFSTest_getPageLinksNotNullTest - 2018.06.17 at 20h 30m 43s.xml">
       <configuration name="DFSTest.getPageLinksNotNullTest" configurationId="JUnit" />
     </history-entry>
@@ -909,9 +953,18 @@
     <history-entry file="DFSTest_getPageLinksNotNullTest - 2018.06.17 at 20h 42m 36s.xml">
       <configuration name="DFSTest.getPageLinksNotNullTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DFSTest_getPageLinksNotNullTest - 2018.06.17 at 20h 43m 04s.xml">
+      <configuration name="DFSTest.getPageLinksNotNullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DFSTest - 2018.06.17 at 20h 56m 48s.xml">
+      <configuration name="DFSTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DFSTest_extractor - 2018.06.17 at 21h 01m 14s.xml">
+      <configuration name="DFSTest.extractor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6497000" />
+    <option name="totallyTimeSpent" value="7981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,10 +998,11 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.32767403" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.3293718" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5050505" side_tool="true" visible="true" weight="0.33055976" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3293718" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.4980494" visible="true" weight="0.33055976" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.4949495" visible="true" weight="0.33055976" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -956,7 +1010,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Coverage" order="4" sideWeight="0.50195056" side_tool="true" visible="true" weight="0.32987013" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -968,7 +1021,14 @@
     <MESSAGE value="Adding DFS Test" />
     <MESSAGE value="Adding Main at Web_Crawler, DFS constructor" />
     <MESSAGE value="DFS getPageLinksNotNullTest(red-condition)" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS getPageLinksNotNullTest(red-condition)" />
+    <MESSAGE value="add dependency to gradle and DFS getPageLinkNotNullTest (green+refactor)" />
+    <MESSAGE value="DFS extractorNotNullTest(red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS extractorNotNullTest(red)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1061,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1077,7 +1130,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="124">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1087,15 +1140,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="260">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
         </state>
       </provider>
     </entry>
