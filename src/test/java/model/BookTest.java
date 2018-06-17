@@ -96,7 +96,10 @@ public class BookTest {
     @Test
     public void getAuthors() {
         Book book = new Book();
-        //assertEquals();
+
+        ArrayList<String> author = book.getAuthors();
+
+        assertEquals("Authot is not Empty", null, author);
     }
 
     @Test
