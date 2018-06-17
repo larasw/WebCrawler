@@ -66,12 +66,18 @@ public class BookTest {
     public void setFormat() {
         Book book = new Book();
 
-        //assertEquals();
+        String setFormat = "pdf";
+        book.setFormat(setFormat);
+        String format = book.getFormat();
+
+        assertEquals("Format is not pdf", setFormat, format);
     }
 
     @Test
     public void getYear() {
         Book book = new Book();
+
+        Stri
         //assertEquals();
     }
 
