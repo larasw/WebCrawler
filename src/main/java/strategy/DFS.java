@@ -20,4 +20,8 @@ public class DFS {
     public void jsonResult(){
 
     }
+
+    public ArrayList<String> getLinks() {
+        return links;
+    }
 }
