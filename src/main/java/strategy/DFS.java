@@ -2,6 +2,8 @@ package strategy;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -47,5 +49,9 @@ public class DFS {
 
     public ArrayList<String> getLinks() {
         return links;
+    }
+
+    public JSONObject getExtractResult(){
+        return null;
     }
 }

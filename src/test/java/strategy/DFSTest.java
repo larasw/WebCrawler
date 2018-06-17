@@ -19,7 +19,10 @@ public class DFSTest {
     }
 
     @Test
-    public void extractor() {
+    public void extractorNotNullandCorrectResultTest() {
+        DFS dfs = new DFS();
+        dfs.extractor("Design");
+        assertThat(dfs.getExtractResult().toString(),containsString("lala"));
     }
 
     @Test
