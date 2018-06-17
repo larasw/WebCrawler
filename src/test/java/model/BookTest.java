@@ -125,7 +125,11 @@ public class BookTest {
     @Test
     public void setPublisher() {
         Book book = new Book();
-        //assertEquals();
+
+        String setpublisher = "Airlangga";
+        book.setPublisher(setpublisher);
+        String publisher = book.getPublisher();
+        assertEquals("publsher is not Airlangga", setpublisher, publisher);
     }
 
     @Test
