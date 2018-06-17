@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="strategy.IStrategyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-14T11:44:10" hostname="ACER-ASPIRE" time="0.256">
+  <properties/>
+  <testcase name="searchTestToGetSameCrawl_ResultObject" classname="strategy.IStrategyTest" time="0.256"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
