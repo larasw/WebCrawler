@@ -144,6 +144,12 @@ public class BookTest {
     @Test
     public void setISBN() {
         Book book = new Book();
+
+        String setISBN = "12121212";
+        book.setISBN(setISBN);
+        String ISBN = book.getISBN();
+
+        assertEquals("ISBn is not 12121212", setISBN, ISBN);
         //assertEquals();
     }
 }
