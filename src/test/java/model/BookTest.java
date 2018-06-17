@@ -116,7 +116,10 @@ public class BookTest {
     @Test
     public void getPublisher() {
         Book book = new Book();
-        //assertEquals();
+
+        String publisher = book.getPublisher();
+
+        assertEquals("publisher not empty", null, publisher);
     }
 
     @Test
