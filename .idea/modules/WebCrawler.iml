@@ -9,7 +9,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="WebCrawlerService_war" level="project" />
-    <orderEntry type="library" name="jersey" level="project" />
   </component>
 </module>
