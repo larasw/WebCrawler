@@ -11,7 +11,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
+import org.jsoup.nodes .Element;
 import org.jsoup.select.Elements;
 
 public class DFS implements IStrategy{
@@ -38,11 +38,11 @@ public class DFS implements IStrategy{
     * */
     @Override
     public void getPageLinks(String URL) {
-        if (URL.contains("sample_site_to_crawl")){
+        if (URL.contains("site")){
             if (!links.contains(URL)) {
                 try {
                     if (links.add(URL)) {
-//                        System.out.println("Depth: "+depth+ " ["+URL+"]");
+                        System.out.println("Depth: "+depth+ " ["+URL+"]");
                     }
 
                     Document document = Jsoup.connect(URL).get();
