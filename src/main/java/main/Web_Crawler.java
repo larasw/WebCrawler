@@ -15,6 +15,5 @@ public class Web_Crawler {
         Scanner s = new Scanner(System.in);
         String a = s.next();
         bwc.Extractor(a);
-        bwc.jsonResult();
     }
 }
