@@ -11,6 +11,9 @@ import static org.assertj.core.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 
 public class Crawl_ResultTest {
+    /**
+     * Test instantiation of books ArrayList when constructor is being executed
+     */
     @Test
     public void constructorToInstantiateBooksArrayListTest() {
         // arrange
@@ -23,6 +26,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(0);
     }
 
+    /**
+     * Test instantiation of movies ArrayList when constructor is being executed
+     */
     @Test
     public void constructorToInstantiateMoviesArrayListTest() {
         // arrange
@@ -35,6 +41,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(0);
     }
 
+    /**
+     * Test instantiation of music ArrayList when constructor is being executed
+     */
     @Test
     public void constructorToInstantiateMusicsArrayListTest() {
         // arrange
@@ -47,6 +56,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(0);
     }
 
+    /**
+     * Test add 1 book to books ArrayList
+     */
     @Test
     public void add1BookTest() {
         // arrange
@@ -61,6 +73,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(1);
     }
 
+    /**
+     * Test add 1 movie to movies ArrayList
+     */
     @Test
     public void add1MovieTest() {
         // arrange
@@ -75,6 +90,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(1);
     }
 
+    /**
+     * Test add 1 music to music ArrayList
+     */
     @Test
     public void add1MusicTest() {
         // arrange
@@ -89,6 +107,9 @@ public class Crawl_ResultTest {
         assertThat(total).isEqualTo(1);
     }
 
+    /**
+     * Set 0 as Result's ID. The set will be ignore because ID cannot be 0
+     */
     @Test
     public void setZeroAsId() {
         // arrange
@@ -103,6 +124,9 @@ public class Crawl_ResultTest {
         assertThat(id).isEqualTo(5);
     }
 
+    /**
+     * Set -1 as Result's ID. The set will be ignore because ID cannot be minus
+     */
     @Test
     public void setMinusOneAsId() {
         // arrange
@@ -117,6 +141,9 @@ public class Crawl_ResultTest {
         assertThat(id).isEqualTo(5);
     }
 
+    /**
+     * Set -1 as Result's number of pages. The set will be ignore because pages cannot be minus
+     */
     @Test
     public void setMinusOneAsNumberOfPages() {
         // arrange
@@ -131,6 +158,9 @@ public class Crawl_ResultTest {
         assertThat(numberOfPages).isEqualTo(5);
     }
 
+    /**
+     * Set 0 as Result's time elapsed. The set will be ignore because time cannot be 0. If it's 0 means there are issue on the connection
+     */
     @Test
     public void setTimeElapsedToZero() {
         // arrange
@@ -146,6 +176,9 @@ public class Crawl_ResultTest {
 
     }
 
+    /**
+     * Set -1 as Result's time elapsed. The set will be ignore because time cannot be minus
+     */
     @Test
     public void setTimeElapsedAsMinusOne() {
         // arrange
