@@ -173,7 +173,7 @@ public class Crawl_Result {
         return movies.get(index).addWriter(writer);
     }
 
-    public String AddStartMoview(int index, String star){
+    public String AddStarMovie(int index, String star){
         return movies.get(index).addStar(star);
     }
 }
