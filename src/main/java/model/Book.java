@@ -145,4 +145,9 @@ public class Book {
     public void setISBN(String ISBN) {
         this.ISBN = ISBN;
     }
+
+    public String AddAuthor(String author){
+        authors.add(author);
+        return "Successfully add "+author+" as the author";
+    }
 }

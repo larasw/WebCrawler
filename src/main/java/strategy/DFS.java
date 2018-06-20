@@ -11,10 +11,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
+import org.jsoup.nodes .Element;
 import org.jsoup.select.Elements;
 
-public class DFS {
+public class DFS implements IStrategy{
     private ArrayList<String> links;
     private int depth=0;
     private int search_depth=0;
@@ -31,12 +31,18 @@ public class DFS {
         links = new ArrayList<>();
     }
 
+    /*
+    * This method is used to crawl through the website
+    *
+    * @param used String type as URL base of the website to be crawled
+    * */
+    @Override
     public void getPageLinks(String URL) {
-        if (URL.contains("sample_site_to_crawl")){
+        if (URL.contains("sample")){
             if (!links.contains(URL)) {
                 try {
                     if (links.add(URL)) {
-//                        System.out.println("Depth: "+depth+ " ["+URL+"]");
+                        System.out.println("Depth: "+depth+ " ["+URL+"]");
                     }
 
                     Document document = Jsoup.connect(URL).get();
@@ -53,6 +59,15 @@ public class DFS {
         }
     }
 
+    /*
+    * This method is used to extract the information from the selected link
+    * also created to minimalize code redundant
+    *
+    * @param Elements mediaDetails is an element that used in the extractor
+    * for filtering and selecting media details. String x is a parameter used
+    * to send the selected link that the information need to be extracted
+    *
+    * */
     private void extractinfo(Elements mediaDetails, String x)  {
         pages_exp++;
         String Category = null;
@@ -105,7 +120,15 @@ public class DFS {
         jo = new JSONObject();
     }
 
-    public void extractor(String search){
+    /*
+    * This method is an extractor, used to find the asked information throughout
+    * the links stored
+    *
+    * @param String search is an input from user asking for specific search or
+    * all
+    * */
+    @Override
+    public void Extractor(String search){
         stopWatch.start();
         System.out.println(search);
         links.forEach(x -> {
@@ -137,10 +160,7 @@ public class DFS {
             System.err.println("Fail to put results into final");
             e.printStackTrace();
         }
-    }
-
-    public void jsonResult(){
-
+        System.out.println(jsonResults);
     }
 
     public ArrayList<String> getLinks() {

@@ -1,10 +1,11 @@
 package strategy;
 
+import org.json.JSONException;
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.not;
-import static org.hamcrest.Matchers.notNullValue;
+import java.io.IOException;
+
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 public class DFSTest {
@@ -18,20 +19,28 @@ public class DFSTest {
     }
 
     @Test
-    public void getPageLinksCorrectResult(){
+    public void getPageLinksCorrectResultTest(){
         DFS dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.getLinks().toString(),containsString("sample_site_to_crawl"));
     }
 
     @Test
-    public void extractorNotNullandCorrectResultTest() {
+    public void extractorNotNullandCorrectResultTest() throws JSONException {
         DFS dfs = new DFS();
-        dfs.extractor("Design");
+        dfs.Extractor("Design");
         assertThat(dfs.getExtractResult().toString(),containsString("Design"));
     }
 
     @Test
+    public void extractorExceptionTest() throws JSONException {
+        DFS dfs = new DFS();
+        dfs.Extractor("Design");
+        assertThat(dfs.jsonResults.toString(),containsString("Design"));
+    }
+
+    @Test
     public void jsonResult() {
+        DFS dfs = new DFS();
     }
 }
