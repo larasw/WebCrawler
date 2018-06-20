@@ -1,5 +1,6 @@
 package result;
 
+import exception.InputDataNotValidException;
 import model.Book;
 import model.Movie;
 import model.Music;
@@ -108,10 +109,11 @@ public class Crawl_ResultTest {
     }
 
     /**
-     * Set 0 as Result's ID. The set will be ignore because ID cannot be 0
+     * Set 0 as Result's ID. InputDataNotValidException would be thrown because ID cannot be 0
+     * @throws InputDataNotValidException
      */
-    @Test
-    public void setZeroAsId() {
+    @Test(expected = InputDataNotValidException.class)
+    public void setZeroAsId() throws InputDataNotValidException {
         // arrange
         Crawl_Result result = new Crawl_Result();
 
@@ -121,14 +123,15 @@ public class Crawl_ResultTest {
         int id = result.getId();
 
         // assert
-        assertThat(id).isEqualTo(5);
+        //assertThat(id).isEqualTo(5);
     }
 
     /**
-     * Set -1 as Result's ID. The set will be ignore because ID cannot be minus
+     * Set -1 as Result's ID. InputDataNotValidException would be thrown because ID cannot be minus
+     * @throws InputDataNotValidException
      */
-    @Test
-    public void setMinusOneAsId() {
+    @Test(expected = InputDataNotValidException.class)
+    public void setMinusOneAsId() throws InputDataNotValidException {
         // arrange
         Crawl_Result result = new Crawl_Result();
 
@@ -138,14 +141,33 @@ public class Crawl_ResultTest {
         int id = result.getId();
 
         // assert
-        assertThat(id).isEqualTo(5);
+        //assertThat(id).isEqualTo(5);
     }
 
     /**
-     * Set -1 as Result's number of pages. The set will be ignore because pages cannot be minus
+     * Set 5 as Result's ID. 5 is not violate the rule of ID's input, so InputDataNotValidException would not be thrown
+     * @throws InputDataNotValidException
      */
     @Test
-    public void setMinusOneAsNumberOfPages() {
+    public void setFiveAsId() throws InputDataNotValidException {
+        // arrange
+        int id = 5;
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setId(id);
+        int getId = result.getId();
+
+        // assert
+        assertThat(getId).isEqualTo(id);
+    }
+
+    /**
+     * Set -1 as Result's number of pages. InputDataNotValidException would be thrown because pages cannot be minus
+     * @throws InputDataNotValidException
+     */
+    @Test (expected = InputDataNotValidException.class)
+    public void setMinusOneAsNumberOfPages() throws InputDataNotValidException {
         // arrange
         Crawl_Result result = new Crawl_Result();
 
@@ -155,14 +177,33 @@ public class Crawl_ResultTest {
         int numberOfPages = result.getNumberOfPages();
 
         // assert
-        assertThat(numberOfPages).isEqualTo(5);
+        //assertThat(numberOfPages).isEqualTo(5);
     }
 
     /**
-     * Set 0 as Result's time elapsed. The set will be ignore because time cannot be 0. If it's 0 means there are issue on the connection
+     * Set 5 as Result's Number of pages. 5 is not violate the rule of number of pages's input, so InputDataNotValidException would not be thrown
+     * @throws InputDataNotValidException
      */
     @Test
-    public void setTimeElapsedToZero() {
+    public void setFiveAsNumberOfPages() throws InputDataNotValidException {
+        // arrange
+        int numberOfPages = 5;
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setNumberOfPages(5);
+        int getNumberOfPages = result.getNumberOfPages();
+
+        // assert
+        assertThat(getNumberOfPages).isEqualTo(numberOfPages);
+    }
+
+    /**
+     * Set 0 as Result's time elapsed. InputDataNotValidException would be thrown because time cannot be 0. If it's 0 means there are issue on the connection
+     * @throws InputDataNotValidException
+     */
+    @Test(expected = InputDataNotValidException.class)
+    public void setTimeElapsedToZero() throws InputDataNotValidException {
         // arrange
         Crawl_Result result = new Crawl_Result();
 
@@ -172,15 +213,16 @@ public class Crawl_ResultTest {
         long timeResult = result.getTimeElapsed();
 
         // assert
-        assertThat(timeResult).isEqualTo(10);
+        //assertThat(timeResult).isEqualTo(10);
 
     }
 
     /**
-     * Set -1 as Result's time elapsed. The set will be ignore because time cannot be minus
+     * Set -1 as Result's time elapsed. InputDataNotValidException would be thrown because time cannot be minus
+     * @throws InputDataNotValidException
      */
-    @Test
-    public void setTimeElapsedAsMinusOne() {
+    @Test (expected = InputDataNotValidException.class)
+    public void setTimeElapsedAsMinusOne() throws InputDataNotValidException {
         // arrange
         Crawl_Result result = new Crawl_Result();
 
@@ -190,6 +232,24 @@ public class Crawl_ResultTest {
         long timeResult = result.getTimeElapsed();
 
         // assert
-        assertThat(timeResult).isEqualTo(10);
+        //assertThat(timeResult).isEqualTo(10);
+    }
+
+    /**
+     * Set 10 as Result's TIme elapsed. 10 is not violate the rule of time elapsed's input, so InputDataNotValidException would not be thrown
+     * @throws InputDataNotValidException
+     */
+    @Test
+    public void setTenAsTimeElapsed() throws InputDataNotValidException {
+        // arrange
+        long timeElapsed = 10;
+        Crawl_Result result = new Crawl_Result();
+
+        // act
+        result.setTimeElapsed(10);
+        long getTimeElapsed = result.getTimeElapsed();
+
+        // assert
+        assertThat(getTimeElapsed).isEqualTo(timeElapsed);
     }
 }
