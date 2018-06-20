@@ -32,7 +32,7 @@ public class DFS {
     }
 
     public void getPageLinks(String URL) {
-        if (URL.contains("site")){
+        if (URL.contains("sample")){
             if (!links.contains(URL)) {
                 try {
                     if (links.add(URL)) {

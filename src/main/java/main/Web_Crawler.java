@@ -10,7 +10,7 @@ public class Web_Crawler {
     // Thank you
     public static void main(String[] args){
         DFS bwc = new DFS();
-        bwc.getPageLinks("http://localhost/site/");
+        bwc.getPageLinks("http://localhost/sample_site_to_crawl/");
         Scanner s = new Scanner(System.in);
         String a = s.next();
         bwc.extractor(a);
