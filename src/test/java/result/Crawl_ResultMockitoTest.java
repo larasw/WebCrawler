@@ -1,6 +1,7 @@
 package result;
 
 import model.Book;
+import model.Movie;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -31,5 +32,25 @@ public class Crawl_ResultMockitoTest {
         verify(book).AddAuthor(author);
     }
 
-    
+    @Test
+    public void addMovieWriterMockitoTest() {
+        // arrange
+        String writer = "Bag shop";
+        String expected = "Successfully add "+writer+" as the writer";
+        Crawl_Result result = new Crawl_Result();
+        Movie movie = mock(Movie.class);
+
+        // STUB
+        when(movie.addWriter(writer)).thenReturn(expected);
+
+        // act
+        result.AddMovie(movie);
+        String addResult = result.AddWriterMovie(0,writer);
+
+        // assert
+        Assert.assertEquals("Writer has failed to add", expected, addResult);
+
+        // verify
+        verify(movie).addWriter(writer);
+    }
 }
