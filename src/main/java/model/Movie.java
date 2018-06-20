@@ -149,4 +149,12 @@ public class Movie {
     public void setStars(ArrayList<String> stars) {
         Stars = stars;
     }
+    public String addWriter(String writer){
+        Writers.add(writer);
+        return "Successfully add "+writer+" as the writer";
+    }
+    public String addStar(String star){
+        Stars.add(star);
+        return "Successfully add "+star+" as the star";
+    }
 }
