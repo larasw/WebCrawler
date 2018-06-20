@@ -156,7 +156,24 @@ public class Crawl_Result {
         if(timeElapsed > 0)
             this.timeElapsed = timeElapsed;
         else{
-            throw new InputDataNotValidException("Time elapsed must be more than 0");
+            throw new InputDataNotValidException("Time elapsed must be more than 0", new Throwable());
         }
+    }
+
+    /**
+     * Adding new author to book based on the book's index
+     * @param index
+     * @param author
+     * @return
+     */
+    public String AddAuthorBook(int index, String author){
+        return books.get(index).AddAuthor(author);
+    }
+    public String AddWriterMovie(int index, String writer){
+        return movies.get(index).addWriter(writer);
+    }
+
+    public String AddStartMoview(int index, String star){
+        return movies.get(index).addStar(star);
     }
 }
