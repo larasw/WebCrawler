@@ -53,4 +53,26 @@ public class Crawl_ResultMockitoTest {
         // verify
         verify(movie).addWriter(writer);
     }
+
+    @Test
+    public void addMovieStarMockitoTest() {
+        // arrange
+        String star = "Asa Butterfield";
+        String expected = "Successfully add "+star+" as the star";
+        Crawl_Result result = new Crawl_Result();
+        Movie movie = mock(Movie.class);
+
+        // STUB
+        when(movie.addStar(star)).thenReturn(expected);
+
+        // act
+        result.AddMovie(movie);
+        String addResult = result.AddStartMoview(0,star);
+
+        // assert
+        Assert.assertEquals("Star has failed to add", expected, addResult);
+
+        // verify
+        verify(movie).addStar(star);
+    }
 }
