@@ -256,6 +256,9 @@ public class Crawl_ResultTest {
         assertThat(getTimeElapsed).isEqualTo(timeElapsed);
     }
 
+    /**
+     * Mockito Test for adding an author to a book mock object from Crawl_Result class
+     */
     @Test
     public void addBookAuthorMockitoTest() {
         // arrange
@@ -278,6 +281,9 @@ public class Crawl_ResultTest {
         verify(book).AddAuthor(author);
     }
 
+    /**
+     * Mockito Test for adding an writer to a movie mock object from Crawl_Result class
+     */
     @Test
     public void addMovieWriterMockitoTest() {
         // arrange
@@ -300,6 +306,9 @@ public class Crawl_ResultTest {
         verify(movie).addWriter(writer);
     }
 
+    /**
+     * Mockito Test for adding an star to a movie mock object from Crawl_Result class
+     */
     @Test
     public void addMovieStarMockitoTest() {
         // arrange

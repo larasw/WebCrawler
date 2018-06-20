@@ -169,10 +169,23 @@ public class Crawl_Result {
     public String AddAuthorBook(int index, String author){
         return books.get(index).AddAuthor(author);
     }
+
+    /**
+     * Adding new writer to movie based on the movie's index
+     * @param index
+     * @param writer
+     * @return
+     */
     public String AddWriterMovie(int index, String writer){
         return movies.get(index).addWriter(writer);
     }
 
+    /**
+     * Adding new star to movie based on the movie's index
+     * @param index
+     * @param star
+     * @return
+     */
     public String AddStarMovie(int index, String star){
         return movies.get(index).addStar(star);
     }
