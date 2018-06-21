@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.lang.time.StopWatch;
+import org.assertj.core.internal.bytebuddy.dynamic.scaffold.FieldLocator;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,11 +22,14 @@ public class DFS implements IStrategy{
     private int pages_exp=0;
     private StopWatch stopWatch = new StopWatch();
 
-    JSONObject jsonObj = new JSONObject();
-    JSONObject jo = new JSONObject();
+    JSONObject item = new JSONObject();
+    JSONObject item_details = new JSONObject();
+    JSONObject jsonResults = new JSONObject();
+    JSONObject FinalResults = new JSONObject();
+
     JSONArray manyInfo = new JSONArray();
     JSONArray search_details = new JSONArray();
-    JSONObject jsonResults = new JSONObject();
+
 
     public DFS() {
         links = new ArrayList<>();
@@ -74,14 +78,14 @@ public class DFS implements IStrategy{
         Elements Title = mediaDetails.select("h1");
         String ObjectTitle = Title.text();
         try {
-            jo.put("Name",ObjectTitle);
+            item_details.put("Name",ObjectTitle);
         } catch (JSONException e) {
             e.printStackTrace();
         }
         Elements tinfo = mediaDetails.select("th");
         Elements tvalue = mediaDetails.select("td");
         try {
-            jo.put("id",x.substring(x.indexOf("id=")+3,x.length()));
+            item_details.put("id",x.substring(x.indexOf("id=")+3,x.length()));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -98,7 +102,7 @@ public class DFS implements IStrategy{
                     manyInfo.put(temp[j]);
                 }
                 try {
-                    jo.put(info,manyInfo);
+                    item_details.put(info,manyInfo);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -106,18 +110,18 @@ public class DFS implements IStrategy{
             }
             else {
                 try {
-                    jo.put(info,value);
+                    item_details.put(info,value);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
         }
         try {
-            jsonObj.append(Category,jo);
+            item.append(Category,item_details);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        jo = new JSONObject();
+        item_details = new JSONObject();
     }
 
     /*
@@ -128,7 +132,7 @@ public class DFS implements IStrategy{
     * all
     * */
     @Override
-    public void Extractor(String search){
+    public String Extractor(String search){
         stopWatch.start();
         System.out.println(search);
         links.forEach(x -> {
@@ -150,24 +154,29 @@ public class DFS implements IStrategy{
                 System.err.println(e.getMessage());
             }
         });
+        try {
+            jsonResults.put("Result",item);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         search_details.put("Time_elapsed: "+stopWatch);
         search_details.put("Pages_explored: "+pages_exp);
         search_details.put("Search_depth: "+search_depth);
-        search_details.put(jsonObj);
+        search_details.put(jsonResults);
         try {
-            jsonResults.put("Results for: "+search,search_details);
+            FinalResults.put("Search Details",search_details);
         } catch (JSONException e) {
-            System.err.println("Fail to put results into final");
             e.printStackTrace();
         }
-        System.out.println(jsonResults);
+//        System.out.println(FinalResults);
+        return FinalResults.toString();
     }
 
     public ArrayList<String> getLinks() {
         return links;
     }
 
-    public JSONObject getExtractResult(){
-        return jsonResults;
+    public String getExtractResult(){
+        return jsonResults.toString();
     }
 }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3bd410-12a1-4023-ab12-b4989537fe7f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/WebCrawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strategy/DFSParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/WebCrawler_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/WebCrawler_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/WebCrawler_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -11,8 +12,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Web_Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Web_Crawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategy/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,49 +56,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DFS.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DFS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strategy/DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+            <state relative-caret-position="157">
+              <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+              <folding>
+                <element signature="e#6006#6007#0" expanded="true" />
+                <element signature="e#6051#6052#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crawl_Result.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
+      <file leaf-file-name="DFSParameterizedTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSParameterizedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="263">
+              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IStrategyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java">
+      <file leaf-file-name="DFSExceptionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSExceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="-187">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy/IStrategy.java">
+      <file leaf-file-name="DFSMockitoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSMockitoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Web_Crawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Web_Crawler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +120,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>result</find>
+      <find>jsonobj</find>
+      <find>jo</find>
+      <find>jsonResults</find>
+      <find>get</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>item_details</replace>
+      <replace>item</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -131,7 +155,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Laras Widiastuti\.gradle\wrapper\dists\gradle-4.4-bin\8cl0djqwi6b5c3rtih1l1e84h\gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Feter Sitepu\.gradle\wrapper\dists\gradle-4.4-all\dz80n7181dxss6l8vp8i9iuqo\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -306,10 +330,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6116517540026" />
+        <entry key="$PROJECT_DIR$" value="6116743265780" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1934300886" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1148592581" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2739124392" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="105111714" />
       </map>
     </option>
@@ -500,11 +524,16 @@
         <option value="$PROJECT_DIR$/src/main/java/result/Crawl_Result.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/MusicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/MovieTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/Web_Crawler.java" />
         <option value="$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/NoDataResultException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSMockitoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/DFS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategy/DFSParameterizedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Web_Crawler.java" />
       </list>
     </option>
   </component>
@@ -528,6 +557,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -610,9 +642,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,7 +649,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/fontys/S7/Block2/TCI/Assignment/week1_code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -631,6 +660,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="strategy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -645,80 +677,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.setStarsTakeLast">
+  <component name="RunManager" selected="Application.Web_Crawler">
+    <configuration name="Web_Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Web_Crawler" />
+      <module name="WebCrawler_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MovieTest.getStars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="getStars" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MovieTest.getStarsShouldEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="result" />
-      <option name="MAIN_CLASS_NAME" value="result.Crawl_ResultTest" />
-      <option name="METHOD_NAME" value="setTimeElapsedAsMinusOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MovieTest.getWriters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebCrawler_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="getWriters" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MovieTest.setStarsTakeLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DFSParameterizedTest.CrawlCorrectResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
@@ -729,8 +703,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="strategy" />
-      <option name="MAIN_CLASS_NAME" value="strategy.IStrategyTest" />
-      <option name="METHOD_NAME" value="searchTestUsingMockito" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSParameterizedTest" />
+      <option name="METHOD_NAME" value="CrawlCorrectResultTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -741,19 +715,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MovieTest.setWritersAmount2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DFSParameterizedTest.CrawlNotNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebCrawler_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.MovieTest" />
-      <option name="METHOD_NAME" value="setWritersAmount2" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSParameterizedTest" />
+      <option name="METHOD_NAME" value="CrawlNotNullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DFSParameterizedTest.extractorCorrectResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSParameterizedTest" />
+      <option name="METHOD_NAME" value="extractorCorrectResultTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DFSParameterizedTest.extractorNotNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebCrawler_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strategy" />
+      <option name="MAIN_CLASS_NAME" value="strategy.DFSParameterizedTest" />
+      <option name="METHOD_NAME" value="extractorNotNullTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -803,19 +823,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MovieTest.getStars" />
-      <item itemvalue="JUnit.MovieTest.getStarsShouldEmpty" />
-      <item itemvalue="JUnit.MovieTest.getWriters" />
-      <item itemvalue="JUnit.MovieTest.setStarsTakeLast" />
-      <item itemvalue="JUnit.MovieTest.setWritersAmount2" />
+      <item itemvalue="JUnit.DFSParameterizedTest.extractorNotNullTest" />
+      <item itemvalue="JUnit.DFSParameterizedTest.extractorCorrectResultTest" />
+      <item itemvalue="JUnit.DFSParameterizedTest.CrawlNotNullTest" />
+      <item itemvalue="JUnit.DFSParameterizedTest.CrawlCorrectResultTest" />
+      <item itemvalue="Application.Web_Crawler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MovieTest.getWriters" />
-        <item itemvalue="JUnit.MovieTest.setWritersAmount2" />
-        <item itemvalue="JUnit.MovieTest.getStars" />
-        <item itemvalue="JUnit.MovieTest.getStarsShouldEmpty" />
-        <item itemvalue="JUnit.MovieTest.setStarsTakeLast" />
+        <item itemvalue="Application.Web_Crawler" />
+        <item itemvalue="JUnit.DFSParameterizedTest.CrawlCorrectResultTest" />
+        <item itemvalue="JUnit.DFSParameterizedTest.CrawlNotNullTest" />
+        <item itemvalue="JUnit.DFSParameterizedTest.extractorCorrectResultTest" />
+        <item itemvalue="JUnit.DFSParameterizedTest.extractorNotNullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -837,7 +857,12 @@
       <workItem from="1529252248480" duration="43000" />
       <workItem from="1528963393376" duration="9253000" />
       <workItem from="1529170393313" duration="8916000" />
-      <workItem from="1529280020551" duration="2763000" />
+      <workItem from="1529280020551" duration="3790000" />
+      <workItem from="1529405502880" duration="438000" />
+      <workItem from="1529505452932" duration="9732000" />
+      <workItem from="1529529381049" duration="1241000" />
+      <workItem from="1529535232958" duration="30000" />
+      <workItem from="1529583834142" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528960953738</created>
@@ -944,43 +969,57 @@
       <option name="project" value="LOCAL" />
       <updated>1528969145533</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixing Istrategy">
+      <created>1529282857112</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1529282857112</updated>
+    </task>
+    <task id="LOCAL-00017" summary="JavaDoc added">
+      <created>1529289858819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529289858819</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 15s.xml">
-      <configuration name="MovieTest.setFormat" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorNotNullTest - 2018.06.21 at 15h 58m 12s.xml">
+      <configuration name="DFSParameterizedTest.extractorNotNullTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_setFormat - 2018.06.16 at 21h 00m 36s.xml">
-      <configuration name="MovieTest.setFormat" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorCorrectResultTest - 2018.06.21 at 15h 59m 44s.xml">
+      <configuration name="DFSParameterizedTest.extractorCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getYearNotEmpty - 2018.06.17 at 00h 18m 58s.xml">
-      <configuration name="MovieTest.getYearNotEmpty" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorCorrectResultTest - 2018.06.21 at 16h 00m 12s.xml">
+      <configuration name="DFSParameterizedTest.extractorCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_setYear - 2018.06.17 at 00h 27m 53s.xml">
-      <configuration name="MovieTest.setYear" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorCorrectResultTest - 2018.06.21 at 16h 00m 45s.xml">
+      <configuration name="DFSParameterizedTest.extractorCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getDirectorNotZero - 2018.06.17 at 00h 33m 43s.xml">
-      <configuration name="MovieTest.getDirectorNotZero" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorNotNullTest - 2018.06.21 at 16h 02m 11s.xml">
+      <configuration name="DFSParameterizedTest.extractorNotNullTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_setDirector - 2018.06.17 at 00h 59m 26s.xml">
-      <configuration name="MovieTest.setDirector" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_extractorCorrectResultTest - 2018.06.21 at 16h 03m 12s.xml">
+      <configuration name="DFSParameterizedTest.extractorCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getWriters - 2018.06.17 at 01h 15m 28s.xml">
-      <configuration name="MovieTest.getWriters" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_CrawlNotNullTest - 2018.06.21 at 16h 07m 15s.xml">
+      <configuration name="DFSParameterizedTest.CrawlNotNullTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_setWritersAmount2 - 2018.06.17 at 01h 38m 25s.xml">
-      <configuration name="MovieTest.setWritersAmount2" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_CrawlCorrectResultTest - 2018.06.21 at 16h 09m 49s.xml">
+      <configuration name="DFSParameterizedTest.CrawlCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getStars - 2018.06.17 at 01h 52m 54s.xml">
-      <configuration name="MovieTest.getStars" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_CrawlCorrectResultTest - 2018.06.21 at 16h 10m 20s.xml">
+      <configuration name="DFSParameterizedTest.CrawlCorrectResultTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieTest_getStarsShouldEmpty - 2018.06.17 at 01h 56m 06s.xml">
-      <configuration name="MovieTest.getStarsShouldEmpty" configurationId="JUnit" />
+    <history-entry file="DFSParameterizedTest_CrawlCorrectResultTest - 2018.06.21 at 16h 11m 28s.xml">
+      <configuration name="DFSParameterizedTest.CrawlCorrectResultTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22014000" />
+    <option name="totallyTimeSpent" value="41063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -988,19 +1027,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4977307" weight="0.3293718" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030257" side_tool="true" visible="true" weight="0.3293718" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.3293718" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1011,7 +1050,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49934897" visible="true" weight="0.2813793" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49848714" weight="0.2801358" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1041,11 +1080,13 @@
     <MESSAGE value="Crawl_Result Test - Set -1 as Time Elapsed" />
     <MESSAGE value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#   gradle" />
     <MESSAGE value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Caesar'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="fixing Istrategy" />
+    <MESSAGE value="JavaDoc added" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1301,13 +1342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/result/Crawl_ResultTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1315,14 +1349,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-list">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1344,30 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/IStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/strategy/IStrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1375,10 +1378,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/NoDataResultException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/result/Crawl_Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="157">
+          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+          <folding>
+            <element signature="e#6006#6007#0" expanded="true" />
+            <element signature="e#6051#6052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategy/DFSParameterizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Web_Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
