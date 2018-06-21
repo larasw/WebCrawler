@@ -50,6 +50,10 @@ public class Book {
 
     }
 
+    public void removeAuthor(int i){
+        this.authors.remove(i);
+    }
+
     /**
      * This method return the genre of the book
      * @return

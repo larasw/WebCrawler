@@ -46,6 +46,11 @@ public class Music {
     public String getGenre() {
         return genre;
     }
+    public String setFormatWithReturn(String format){
+        this.format = format;
+        String formatfinal = format+" file";
+        return "Add "+formatfinal+" done!";
+    }
 
     /**
      * Method to set the genre of the music

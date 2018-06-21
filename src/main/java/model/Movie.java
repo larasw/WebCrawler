@@ -157,4 +157,9 @@ public class Movie {
         Stars.add(star);
         return "Successfully add "+star+" as the star";
     }
+
+    public String removeStar(int i){
+        Stars.remove(i);
+        return "Successfully remove "+i+"th Star from the star";
+    }
 }

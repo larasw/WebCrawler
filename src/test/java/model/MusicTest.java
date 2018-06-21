@@ -63,6 +63,7 @@ public class MusicTest {
         assertEquals("Genre is not "+genre, "rock", getgenre);
     }
 
+
     /**
      * Test to set the value of music format
      */
