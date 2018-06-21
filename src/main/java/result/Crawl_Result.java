@@ -1,5 +1,6 @@
 package result;
 
+import exception.InputDataNotValidException;
 import model.Book;
 import model.Movie;
 import model.Music;
@@ -110,9 +111,11 @@ public class Crawl_Result {
      * ID cannot be 0 or below
      * @param id int that will be the ID
      */
-    public void setId(int id) {
+    public void setId(int id) throws InputDataNotValidException {
         if(id > 0)
             Id = id;
+        else
+            throw new InputDataNotValidException();
     }
 
     /**
@@ -129,9 +132,11 @@ public class Crawl_Result {
      * Can be 0 if nothing is found
      * @param numberOfPages int total of pages
      */
-    public void setNumberOfPages(int numberOfPages) {
+    public void setNumberOfPages(int numberOfPages) throws InputDataNotValidException {
         if(numberOfPages >= 0)
             this.numberOfPages = numberOfPages;
+        else
+            throw new InputDataNotValidException("Number of pages cannot be below 0");
     }
 
     /**
@@ -147,8 +152,41 @@ public class Crawl_Result {
      * Cannot be 0, if 0 means access failed or denied
      * @param timeElapsed contain decimal for seconds
      */
-    public void setTimeElapsed(long timeElapsed) {
+    public void setTimeElapsed(long timeElapsed) throws InputDataNotValidException {
         if(timeElapsed > 0)
             this.timeElapsed = timeElapsed;
+        else{
+            throw new InputDataNotValidException("Time elapsed must be more than 0", new Throwable());
+        }
+    }
+
+    /**
+     * Adding new author to book based on the book's index
+     * @param index
+     * @param author
+     * @return
+     */
+    public String AddAuthorBook(int index, String author){
+        return books.get(index).AddAuthor(author);
+    }
+
+    /**
+     * Adding new writer to movie based on the movie's index
+     * @param index
+     * @param writer
+     * @return
+     */
+    public String AddWriterMovie(int index, String writer){
+        return movies.get(index).addWriter(writer);
+    }
+
+    /**
+     * Adding new star to movie based on the movie's index
+     * @param index
+     * @param star
+     * @return
+     */
+    public String AddStarMovie(int index, String star){
+        return movies.get(index).addStar(star);
     }
 }

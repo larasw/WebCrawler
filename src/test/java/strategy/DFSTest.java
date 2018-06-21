@@ -28,14 +28,14 @@ public class DFSTest {
     @Test
     public void extractorNotNullandCorrectResultTest() throws JSONException {
         DFS dfs = new DFS();
-        dfs.extractor("Design");
+        dfs.Extractor("Design");
         assertThat(dfs.getExtractResult().toString(),containsString("Design"));
     }
 
     @Test
     public void extractorExceptionTest() throws JSONException {
         DFS dfs = new DFS();
-        dfs.extractor("Design");
+        dfs.Extractor("Design");
         assertThat(dfs.jsonResults.toString(),containsString("Design"));
     }
 
