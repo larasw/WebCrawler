@@ -1,5 +1,6 @@
 package strategy;
 
+import exception.InputDataNotValidException;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import main.Web_Crawler;
@@ -38,7 +39,7 @@ public class DFSParameterizedTest {
 
     @Test
     @Parameters(method = "ExtractorTestData")
-    public void extractorCorrectResultTest(String ExtractorTestData){
+    public void extractorCorrectResultTest(String ExtractorTestData) throws InputDataNotValidException {
         dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.Extractor(ExtractorTestData),containsString(ExtractorTestData));
@@ -47,20 +48,20 @@ public class DFSParameterizedTest {
     /*Web Crawler Test*/
     @Test
     @Parameters(method = "ExtractorTestData")
-    public void CrawlNotNullTest(String ExtractorTestData){
+    public void CrawlNotNullTest(String ExtractorTestData) throws InputDataNotValidException {
         wb = new Web_Crawler();
         assertThat(wb.Crawl(ExtractorTestData),notNullValue());
     }
 
     @Test
     @Parameters(method = "ExtractorTestData")
-    public void CrawlCorrectResultTest(String ExtractorTestData){
+    public void CrawlCorrectResultTest(String ExtractorTestData) throws InputDataNotValidException {
         wb = new Web_Crawler();
         assertThat(wb.Crawl(ExtractorTestData),containsString(ExtractorTestData));
     }
 
     @Test
-    public void getPageLinksNotNullTest() {
+    public void getPageLinksNotNullTest() throws InputDataNotValidException {
         dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.getLinks(),notNullValue());
@@ -68,7 +69,7 @@ public class DFSParameterizedTest {
     }
 
     @Test
-    public void getPageLinksCorrectResultTest(){
+    public void getPageLinksCorrectResultTest() throws InputDataNotValidException {
         dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.getLinks().toString(),containsString("sample_site_to_crawl"));

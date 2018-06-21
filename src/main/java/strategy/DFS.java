@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import exception.InputDataNotValidException;
 import org.apache.commons.lang.time.StopWatch;
 import org.assertj.core.internal.bytebuddy.dynamic.scaffold.FieldLocator;
 import org.json.JSONArray;
@@ -41,8 +42,8 @@ public class DFS implements IStrategy{
     * @param used String type as URL base of the website to be crawled
     * */
     @Override
-    public void getPageLinks(String URL) {
-        if (URL.contains("sample")){
+    public void getPageLinks(String URL) throws InputDataNotValidException {
+        if (URL.contains("sample")|URL.contains("http:")|URL.contains("www.")){
             if (!links.contains(URL)) {
                 try {
                     if (links.add(URL)) {
@@ -61,6 +62,7 @@ public class DFS implements IStrategy{
                 }
             }
         }
+        else throw new InputDataNotValidException();
     }
 
     /*
