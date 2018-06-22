@@ -41,6 +41,11 @@ public class ParameterizedModelTest {
     }
 
     @Test
+    public void Dummy(){
+
+    }
+
+    @Test
     public void musicGenreTest() {
         // arrange
         Music music = new Music();
