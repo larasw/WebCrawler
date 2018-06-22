@@ -22,4 +22,5 @@ dependencies {
     compile group: 'org.json', name: 'json', version: '20090211'
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
     compile group: 'commons-lang', name: 'commons-lang', version: '2.2'
+    testCompile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.1.1'
 }

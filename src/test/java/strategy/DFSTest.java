@@ -1,5 +1,6 @@
 package strategy;
 
+import exception.InputDataNotValidException;
 import org.json.JSONException;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ import static org.junit.Assert.*;
 public class DFSTest {
 
     @Test
-    public void getPageLinksNotNullTest() {
+    public void getPageLinksNotNullTest() throws InputDataNotValidException {
         DFS dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.getLinks(),notNullValue());
@@ -19,7 +20,7 @@ public class DFSTest {
     }
 
     @Test
-    public void getPageLinksCorrectResultTest(){
+    public void getPageLinksCorrectResultTest() throws InputDataNotValidException {
         DFS dfs = new DFS();
         dfs.getPageLinks("http://localhost/sample_site_to_crawl/");
         assertThat(dfs.getLinks().toString(),containsString("sample_site_to_crawl"));
